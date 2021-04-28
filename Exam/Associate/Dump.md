@@ -145,558 +145,237 @@
     - [ ] The number of TCP connection timeout errors
     - [ ] The total number of connection attempts
 ### **Question 23)**
-When you record a browser clickpath, what are the interactions with your web application captured as?
-
-
-A video of the actions to be played back
-
-
-A grouping of URLs
-
-
-A series of different types of events
-
-
-User actions in a session
+- When you record a browser clickpath, what are the interactions with your web application captured as?
+    - [ ] A video of the actions to be played back
+    - [ ] A grouping of URLs
+    - [ ] A series of different types of events
+    - [ ] User actions in a session
 ### **Question 24)**
-Why is it important to include Dynatrace network monitoring metrics as part of a performance analysis?
-
-
-It is not important to include, because it is enough to know that a process has sufficient server resources and is responding in a timely manner.
-
-
-The network is part of your application's underlying infrastructure. As well, network performance can be a root cause for an application problem.
-
-
-Analysis of network monitoring metrics often results in the discovery of application errors from an unrelated process which is hoarding network resources.
-
-
-Dynatrace network monitoring provides detailed information about user network speeds to determine their connectivity to a monitored application.
+- Why is it important to include Dynatrace network monitoring metrics as part of a performance analysis?
+    - [ ] It is not important to include, because it is enough to know that a process has sufficient server resources and is responding in a timely manner.
+    - [ ] The network is part of your application's underlying infrastructure. As well, network performance can be a root cause for an application problem.
+    - [ ] Analysis of network monitoring metrics often results in the discovery of application errors from an unrelated process which is hoarding network resources.
+    - [ ] Dynatrace network monitoring provides detailed information about user network speeds to determine their connectivity to a monitored application.
 ### **Question 25)**
-What is a PurePath?
-
-
-A PurePath is a real-time view of all the components and processes in your application infrastructure.
-
-
-A PurePath is diagnostic information available for every single transaction which enables more accurate reporting, and faster root cause analysis.
-
-
-A PurePath monitors the performance of an application and its services across the entire user session.
-
-
-A PurePath is a simulated user visit that allows you to monitor a business critical workflow.
+- What is a PurePath?
+    - [ ] A PurePath is a real-time view of all the components and processes in your application infrastructure.
+    - [ ] A PurePath is diagnostic information available for every single transaction which enables more accurate reporting, and faster root cause analysis.
+    - [ ] A PurePath monitors the performance of an application and its services across the entire user session.
+    - [ ] A PurePath is a simulated user visit that allows you to monitor a business critical workflow.
 ### **Question 26)**
-What can you do to change how process groups are detected?
-
-
-You cannot change how process groups are detected.
-
-
-You can configure OneAgent to detect additional processes via the setup process wizard.
-
-
-You can create your own process group detection rules.
-
-
-You can define key process attributes.
+- What can you do to change how process groups are detected?
+    - [ ] You cannot change how process groups are detected.
+    - [ ] You can configure OneAgent to detect additional processes via the setup process wizard.
+    - [ ] You can create your own process group detection rules.
+    - [ ] You can define key process attributes.
 ### **Question 27)**
-Which statements about ActiveGates are true? Select all that apply.
-
-
-By using an ActiveGate, firewall settings can be simplified as only the host running the ActiveGate needs to be connected to the Dynatrace Server.
-
-
-An Environment ActiveGate is required to allow OneAgent to send data to the Dynatrace server.
-
-
-There cannot be more than one Cluster ActiveGate installed in a monitored environment.
-
-
-The ActiveGate bundles the OneAgent traffic.
-
-
-For VMware monitoring, an Environment ActiveGate is required when using Dynatrace SaaS.
+- Which statements about ActiveGates are true? Select all that apply.
+    - [ ] By using an ActiveGate, firewall settings can be simplified as only the host running the ActiveGate needs to be connected to the Dynatrace Server.
+    - [ ] An Environment ActiveGate is required to allow OneAgent to send data to the Dynatrace server.
+    - [ ] There cannot be more than one Cluster ActiveGate installed in a monitored environment.
+    - [ ] The ActiveGate bundles the OneAgent traffic.
+    - [ ] For VMware monitoring, an Environment ActiveGate is required when using Dynatrace SaaS.
 ### **Question 28)**
-What is the relative timeframe used for traffic anomaly detection?
-
-
-Average on this day of week for the month
-
-
-Average of the last two weeks
-
-
-The previous day
-
-
-7 days ago
+- What is the relative timeframe used for traffic anomaly detection?
+    - [ ] Average on this day of week for the month
+    - [ ] Average of the last two weeks
+    - [ ] The previous day
+    - [ ] 7 days ago
 ### **Question 29)**
-Which of the following can conversion goals be set up to capture? Select all that apply.
-
-
-Session duration
-
-
-JavaScript variable
-
-
-User action
-
-
-Destination
-
-clear
-
-Meta tag contents
+- Which of the following can conversion goals be set up to capture? Select all that apply.
+    - [ ] Session duration
+    - [ ] JavaScript variable
+    - [ ] User action
+    - [ ] Destination
+    - [ ] Meta tag contents
 ### **Question 30)**
-How can you chart User Sessions that include a particular action?
-
-clear
-
-Add a filter for user action duration
-
-
-Add a filter that includes the count of the user action
-
-
-Chart results by the application
-
-
-Add a filter for the user action name
+- How can you chart User Sessions that include a particular action?
+    - [ ] Add a filter for user action duration
+    - [ ] Add a filter that includes the count of the user action
+    - [ ] Chart results by the application
+    - [ ] Add a filter for the user action name
 ### **Question 31)**
-For a key request, how long is 1-minute interval granularity request history available?
-
-
-14 days
-
-
-Forever
-
-
-400 days
-
-
-28 days
+- For a key request, how long is 1-minute interval granularity request history available?
+    - [ ] 14 days
+    - [ ] Forever
+    - [ ] 400 days
+    - [ ] 28 days
 ### **Question 32)**
-How long does it take for a user session to be visible in the user session search?
-
-
-Typically within 4 minutes.
-
-
-Immediately when a user sessions is finished.
-
-
-Typically within 20 minutes of the user session ending.
-
-
-Not until 30 minutes after the user session starts.
+- How long does it take for a user session to be visible in the user session search?
+    - [ ] Typically within 4 minutes.
+    - [ ] Immediately when a user sessions is finished.
+    - [ ] Typically within 20 minutes of the user session ending.
+    - [ ] Not until 30 minutes after the user session starts.
 ### **Question 33)**
-What are private synthetic locations in Dynatrace?
-
-
-Private locations can only be defined in Azure for Synthetic testing.
-
-
-They are private locations to test out new OneAgent beta features.
-
-clear
-
-They are used to execute browser and HTTP monitors from your own infrastructure.
-
-
-Private locations is a feature only available to SaaS customers.
+- What are private synthetic locations in Dynatrace?
+    - [ ] Private locations can only be defined in Azure for Synthetic testing.
+    - [ ] They are private locations to test out new OneAgent beta features.
+    - [ ] They are used to execute browser and HTTP monitors from your own infrastructure.
+    - [ ] Private locations is a feature only available to SaaS customers.
 ### **Question 34)**
-What is the data retention period for RUM Session Replay data?
-
-
-Configurable up to 60 days
-
-
-Fixed at 35 days
-
-
-Fixed at 10 days
-
-
-Configurable up to 35 days
+- What is the data retention period for RUM Session Replay data?
+    - [ ] Configurable up to 60 days
+    - [ ] Fixed at 35 days
+    - [ ] Fixed at 10 days
+    - [ ] Configurable up to 35 days
 ### **Question 35)**
-How is user session duration calculated?
-
-
-It is the elapsed time between initiation of the first user action in a session and the completion of the last user action in the session.
-
-
-It is the total time of all user actions from every visit made by a unique user calculated over a period of 7 days.
-
-
-It is the elapsed time between initiation of the first user action in a session and the completion of the last user action in the session, with timeout periods factored in.
-
-
-It is the elapsed time between initiation of the first user action in a session until 30 minutes after the completion of the last user action or when the browser has timed out.
+- How is user session duration calculated?
+    - [ ] It is the elapsed time between initiation of the first user action in a session and the completion of the last user action in the session.
+    - [ ] It is the total time of all user actions from every visit made by a unique user calculated over a period of 7 days.
+    - [ ] It is the elapsed time between initiation of the first user action in a session and the completion of the last user action in the session, with timeout periods factored in.
+    - [ ] It is the elapsed time between initiation of the first user action in a session until 30 minutes after the completion of the last user action or when the browser has timed out.
 ### **Question 36)**
-Which three concepts does Dynatrace consider when identifying and naming web request services?
-
-
-Virtual host, Server block, Site
-
-
-WSDL, Properties, Tags
-
-
-Web application ID, Virtual Directory, WSDL
-
-
-Web server name, Context root, Web application ID
+- Which three concepts does Dynatrace consider when identifying and naming web request services?
+    - [ ] Virtual host, Server block, Site
+    - [ ] WSDL, Properties, Tags
+    - [ ] Web application ID, Virtual Directory, WSDL
+    - [ ] Web server name, Context root, Web application ID
 ### **Question 37)**
-Why is transfer size an important Digital Experience Management (DEM)** metric?
-
-clear
-
-A small transfer size means your application is performing poorly.
-
-
-A large transfer size means your application is performing poorly.
-
-
-A large transfer size might not lead to poor performance, but it does use up data from a user's data plan when accessed on a mobile device.
-
-
-It is not important if it is combined with a low Visually Complete number, as the user experience is still very good.
+- Why is transfer size an important Digital Experience Management (DEM)** metric?
+    - [ ] A small transfer size means your application is performing poorly.
+    - [ ] A large transfer size means your application is performing poorly.
+    - [ ] A large transfer size might not lead to poor performance, but it does use up data from a user's data plan when accessed on a mobile device.
+    - [ ] It is not important if it is combined with a low Visually Complete number, as the user experience is still very good.
 ### **Question 38)**
-What is a Process group within Dynatrace?
-
-
-A set of processes that perform the same function across multiple hosts.
-
-
-A set of processes that perform a similar function on the same host.
-
-
-Processes you have assigned to the same group.
-
-
-An instance of a computer program that is being executed.
+- What is a Process group within Dynatrace?
+    - [ ] A set of processes that perform the same function across multiple hosts.
+    - [ ] A set of processes that perform a similar function on the same host.
+    - [ ] Processes you have assigned to the same group.
+    - [ ] An instance of a computer program that is being executed.
 ### **Question 39)**
-Which of the following is NOT an event severity level in Dynatrace?
-
-clear
-
-Availability
-
-
-Error
-
-
-Slowdown
-
-
-Resource
-
-
-Anomaly
+- Which of the following is NOT an event severity level in Dynatrace?
+    - [ ] Availability
+    - [ ] Error
+    - [ ] Slowdown
+    - [ ] Resource
+    - [ ] Anomaly
 ### **Question 40)**
-You are investigating a problem that was caused by CPU saturation on one of your monitored hosts. From the problem details, how can you see when the problem evolved and how services were affected?
-
-
-1. Open the applications that run on the host
-
-2. Check the development of user actions per minute
-
---
-
-1. Open the Visual Resolution Path and replay the problem timeline
-
-2. Navigate to the affected entities to investigate them in data
-
---
-
-1. Open the Smartscape topology
-
-2. Select the affected host
-
-3. Navigate through the vertical relationships
-
-4. Investigate the entities at each tier
-
---
-1. Open the Host's details page
-
-2. Navigate through the processes, services, and applications
-
-3. For each, check the metrics such as failure rate, response time, and traffic
+- You are investigating a problem that was caused by CPU saturation on one of your monitored hosts. From the problem details, how can you see when the problem evolved and how services were affected?
+    - [ ] 1. Open the applications that run on the host<br>
+          2. Check the development of user actions per minute
+    - [ ] 1. Open the Visual Resolution Path and replay the problem timeline<br>
+          2. Navigate to the affected entities to investigate them in data
+    - [ ] 1. Open the Smartscape topology<br>
+          2. Select the affected host<br>
+          3. Navigate through the vertical relationships<br>
+          4. Investigate the entities at each tier
+    - [ ] 1. Open the Host's details page<br>
+          2. Navigate through the processes, services, and applications<br>
+          3. For each, check the metrics such as failure rate, response time, and traffic
 ### **Question 41)**
-Which of the following are options for recurrence of Maintenance windows? Select all that apply.
-
-
-Custom recurring timeframe
-
-
-A specific day of the year, every year
-
-
-Day of week
-
-
-Daily
-
-
-Day of the month
+- Which of the following are options for recurrence of Maintenance windows? Select all that apply.
+    - [ ] Custom recurring timeframe
+    - [ ] A specific day of the year, every year
+    - [ ] Day of week
+    - [ ] Daily
+    - [ ] Day of the month
 ### **Question 42)**
-Which of the following are benefits of Dynatrace database monitoring? Select all that apply.
-
-
-You can see how much load is placed on your database by individual services.
-
-
-You can manage your SQL server along with Dynatrace elements in the Dashboard.
-
-
-You can find out which services talk to each database most frequently.
-
-
-You can receive tips on how to improve the database calling code.
-
-
-You can find expensive database calls, for example those that read a lot of data.
+- Which of the following are benefits of Dynatrace database monitoring? Select all that apply.
+    - [ ] You can see how much load is placed on your database by individual services.
+    - [ ] You can manage your SQL server along with Dynatrace elements in the Dashboard.
+    - [ ] You can find out which services talk to each database most frequently.
+    - [ ] You can receive tips on how to improve the database calling code.
+    - [ ] You can find expensive database calls, for example those that read a lot of data.
 ### **Question 43)**
-What is a request attribute?
-
-
-Request attributes are key/value pairs associated with a particular service request.
-
-
-An important process that belongs to a deployment unit.
-
-
-Request attributes are important details about containers.
-
-
-A request of particular interest in your web-application environment because it is a critical measure of business success.
+- What is a request attribute?
+    - [ ] Request attributes are key/value pairs associated with a particular service request.
+    - [ ] An important process that belongs to a deployment unit.
+    - [ ] Request attributes are important details about containers.
+    - [ ] A request of particular interest in your web-application environment because it is a critical measure of business success.
 ### **Question 44)**
-Select the components on a host that are monitored by OneAgent. Select all that apply.
-
-
-NIC
-
-
-Battery
-
-
-Disk
-
-
-Memory
-
-
-CPU
+- Select the components on a host that are monitored by OneAgent. Select all that apply.
+    - [ ] NIC
+    - [ ] Battery
+    - [ ] Disk
+    - [ ] Memory
+    - [ ] CPU
 ### **Question 45)**
-Where do you find details about crashes in a monitored mobile application?
-
-
-The Details page of the services used by the mobile application.
-
-
-From the "Mobile application crashes" report.
-
-
-The Details page of the mobile application.
-
-
-From the individual user sessions that have been captured for the mobile application.
+- Where do you find details about crashes in a monitored mobile application?
+    - [ ] The Details page of the services used by the mobile application.
+    - [ ] From the "Mobile application crashes" report.
+    - [ ] The Details page of the mobile application.
+    - [ ] From the individual user sessions that have been captured for the mobile application.
 ### **Question 46)**
-Dynatrace Synthetic supports three types of synthetic monitoring. They are:
-
-
-Single-URL browser monitors, browser clickpaths, and HTTP monitors
-
-
-Single-URL browser monitors, browser clickpaths, and API monitors
-
-
-Multi-URL browser monitors, browser clickpaths, and API monitors
-
-
-Multi-URL browser monitors, browser clickpaths, and HTTP monitors
+- Dynatrace Synthetic supports three types of synthetic monitoring. They are:
+    - [ ] Single-URL browser monitors, browser clickpaths, and HTTP monitors
+    - [ ] Single-URL browser monitors, browser clickpaths, and API monitors
+    - [ ] Multi-URL browser monitors, browser clickpaths, and API monitors
+    - [ ] Multi-URL browser monitors, browser clickpaths, and HTTP monitors
 ### **Question 47)**
-In a Dynatrace managed environment, why must you ensure there is outbound communication to Dynatrace Mission Control?
-
-
-Dynatrace Mission Control needs to provide license validation, health monitoring and automatic updates to your Dynatrace managed cluster.
-
-
-Dynatrace Mission Control is responsible for encrypting your data before uploading it to the Dynatrace cloud.
-
-
-It is mandatory so the Dynatrace support team can access your environment to provide troubleshooting assistance.
-
-
-Dynatrace Mission Control acts as a proxy for the Dynatrace user interface on your server.
+- In a Dynatrace managed environment, why must you ensure there is outbound communication to Dynatrace Mission Control?
+    - [ ] Dynatrace Mission Control needs to provide license validation, health monitoring and automatic updates to your Dynatrace managed cluster.
+    - [ ] Dynatrace Mission Control is responsible for encrypting your data before uploading it to the Dynatrace cloud.
+    - [ ] It is mandatory so the Dynatrace support team can access your environment to provide troubleshooting assistance.
+    - [ ] Dynatrace Mission Control acts as a proxy for the Dynatrace user interface on your server.
 ### **Question 47)**
-In a Dynatrace managed environment, why must you ensure there is outbound communication to Dynatrace Mission Control?
-
-
-Dynatrace Mission Control needs to provide license validation, health monitoring and automatic updates to your Dynatrace managed cluster.
-
-
-Dynatrace Mission Control is responsible for encrypting your data before uploading it to the Dynatrace cloud.
-
-
-It is mandatory so the Dynatrace support team can access your environment to provide troubleshooting assistance.
-
-
-Dynatrace Mission Control acts as a proxy for the Dynatrace user interface on your server.
+- In a Dynatrace managed environment, why must you ensure there is outbound communication to Dynatrace Mission Control?
+    - [ ] Dynatrace Mission Control needs to provide license validation, health monitoring and automatic updates to your Dynatrace managed cluster.
+    - [ ] Dynatrace Mission Control is responsible for encrypting your data before uploading it to the Dynatrace cloud.
+    - [ ] It is mandatory so the Dynatrace support team can access your environment to provide troubleshooting assistance.
+    - [ ] Dynatrace Mission Control acts as a proxy for the Dynatrace user interface on your server.
 ### **Question 48)**
-What is the smallest interval that a browser clickpath can execute at?
-
-
-1 minute
-
-
-15 minutes
-
-
-5 minutes
-
-
-10 minutes
+- What is the smallest interval that a browser clickpath can execute at?
+    - [ ] 1 minute
+    - [ ] 15 minutes
+    - [ ] 5 minutes
+    - [ ] 10 minutes
 ### **Question 49)**
-Which event type has the highest severity level?
-
-
-Availability events
-
-
-Slowdown events
-
-
-Resource events
-
-
-Info events
+- Which event type has the highest severity level?
+    - [ ] Availability events
+    - [ ] Slowdown events
+    - [ ] Resource events
+    - [ ] Info events
 ### **Question 50)**
-You want to receive Dynatrace push notifications directly on your iOS or Android mobile device. How do you do this?
-
---
-
-For each Problem Type for which you want a notification do the following:
-
-1. Click the Properties button
-
-2. Select Notification Options
-
-3. Add your mobile phone number
-
---
-
-1. Access Dynatrace Settings
-
-2. On the Problems page, open the problem, and forward it to your mobile device
-
---
-
-1. Access Dynatrace Settings
-
-2. On the Notifications page, enter your mobile device phone number in Other Contacts
-
---
-
-1. Install the Dynatrace mobile application on your device
-
-2. Log in to the App with your Dynatrace environment credentials
+- You want to receive Dynatrace push notifications directly on your iOS or Android mobile device. How do you do this?
+    - [ ] For each Problem Type for which you want a notification do the following:<br>
+    1. Click the Properties button<br>
+    2. Select Notification Options<br>
+    3. Add your mobile phone number
+    - [ ] 1. Access Dynatrace Settings<br>
+    2. On the Problems page, open the problem, and forward it to your mobile device
+    - [ ] 1. Access Dynatrace Settings<br>
+    2. On the Notifications page, enter your mobile device phone number in Other Contacts
+    - [ ] 1. Install the Dynatrace mobile application on your device<br>
+    2. Log in to the App with your Dynatrace environment credentials
 ### **Question 51)**
-What information is shown in a Smartscape?
-
-clear
-
-The visual representation of all entities automatically discovered in the observed environment and the dependencies between them.
-
-
-The current OneAgent deployment status across all monitored entities.
-
-
-A customized visualization of the environment topology, shown as desired by the user. It may not necessarily reflect the actual environment topology.
-
-
-The entities in the monitored environment that have been tagged for inclusion in automatic root cause analysis, either manually or automatically (rule-based).
+- What information is shown in a Smartscape?
+    - [ ] The visual representation of all entities automatically discovered in the observed environment and the dependencies between them.
+    - [ ] The current OneAgent deployment status across all monitored entities.
+    - [ ] A customized visualization of the environment topology, shown as desired by the user. It may not necessarily reflect the actual environment topology.
+    - [ ] The entities in the monitored environment that have been tagged for inclusion in automatic root cause analysis, either manually or automatically (rule-based).
 ### **Question 52)**
-What does a dashed connection between two services in a Smartscape view mean?
-
-clear
-
-The communication between the services is unstable. For example, there are some failed requests.
-
-
-The communication status is fine, with no outages.
-
-
-The services should be communicating, but due to a problem, there is no communication between the services.
-
-
-There has been communication between the services in the past, but not recently.
+- What does a dashed connection between two services in a Smartscape view mean?
+    - [ ] The communication between the services is unstable. For example, there are some failed requests.
+    - [ ] The communication status is fine, with no outages.
+    - [ ] The services should be communicating, but due to a problem, there is no communication between the services.
+    - [ ] There has been communication between the services in the past, but not recently.
 ### **Question 53)**
-Which approaches are used to determine whether or not a problem should be raised? Select all that apply.
-
-
-Built-in static thresholds
-
-
-User-triggered
-
-
-User-defined static thresholds
-
-
-Automatic baselines
-
-clear
-
-Randomized sampling
+- Which approaches are used to determine whether or not a problem should be raised? Select all that apply.
+    - [ ] Built-in static thresholds
+    - [ ] User-triggered
+    - [ ] User-defined static thresholds
+    - [ ] Automatic baselines
+    - [ ] Randomized sampling
 ### **Question 54)**
-What is visualized in a Service flow?
-
-
-An overview of the topological dependencies of processes, and services, vertically and horizontally
-
-
-The sequence of service calls triggered by a single service request
-
-
-An overview of applications and services, and the impact of any performance problems on your environment
-
-
-Applications or services using a service and the calls the service makes to other services or databases
+- What is visualized in a Service flow?
+    - [ ] An overview of the topological dependencies of processes, and services, vertically and horizontally
+    - [ ] The sequence of service calls triggered by a single service request
+    - [ ] An overview of applications and services, and the impact of any performance problems on your environment
+    - [ ] Applications or services using a service and the calls the service makes to other services or databases
 ### **Question 55)**
-You want to ensure that certain content is loading on a web page for users in Europe. How can you check this?
-
-
-Create a Browser Clickpath with a location in Europe that ends with a validation check for a specific page element.
-
-
-Create a Browser Monitor with a location in Europe and a content validation rule that fails if the website content contains the elements you are concerned with.
-
-
-Create a Browser Monitor with a location in Europe and a content validation rule that passes if the website content contains the elements you are concerned with.
-
-
-Any monitor running from a location in Europe will generate a problem report if all elements do not load.
+- You want to ensure that certain content is loading on a web page for users in Europe. How can you check this?
+    - [ ] Create a Browser Clickpath with a location in Europe that ends with a validation check for a specific page element.
+    - [ ] Create a Browser Monitor with a location in Europe and a content validation rule that fails if the website content contains the elements you are concerned with.
+    - [ ] Create a Browser Monitor with a location in Europe and a content validation rule that passes if the website content contains the elements you are concerned with.
+    - [ ] Any monitor running from a location in Europe will generate a problem report if all elements do not load.
 ### **Question 56)**
-What is the smallest interval at which an HTTP monitor can execute?
-
-
-15 minutes
-
-
-5 minutes
-
-
-1 minute
-
-
-10 minutes
+- What is the smallest interval at which an HTTP monitor can execute?
+    - [ ] 15 minutes
+    - [ ] 5 minutes
+    - [ ] 1 minute
+    - [ ] 10 minutes
 ### **Question 57)**
-Which of the following statements about baselines is true?
+- Which of the following statements about baselines is true?
 
 
 Automatic baselines are available immediately after the application or service has been detected.
