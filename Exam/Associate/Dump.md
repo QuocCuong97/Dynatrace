@@ -100,12 +100,12 @@
     - [ ] For all user sessions, you can search for a specific browser and version, but the browser distribution cannot be visualized.
     - [ ] From the User Sessions page, you can Chart results by 'Browser' . This provides a sunburst style chart as the one shown, where you can drill down into the desired interface type, the browser and then the version.
         
-        <img src=https://i.imgur.com/5QAQOPI.png width=20%>
+        <p align=center><img src=https://i.imgur.com/5QAQOPI.png width=30%></p>
 
     - [ ] This is not available across all monitored applications.
     - [ ] From the Mobile applications page, you can select a mobile application, and view the Browser breakdown. This will provide a chart and table as shown, where you can drill down into the Browser Distribution.
 
-        <img src=https://i.imgur.com/QHIhzVA.png width=20%>
+        <p align=center><img src=https://i.imgur.com/QHIhzVA.png width=40%></p>
 
 ### **Question 17)**
 - Which ports are used for OneAgent traffic to a Managed Dynatrace node?
@@ -376,208 +376,92 @@
     - [ ] 10 minutes
 ### **Question 57)**
 - Which of the following statements about baselines is true?
-
-
-Automatic baselines are available immediately after the application or service has been detected.
-
-
-Automatic baselines are available 1 hour after the application or service has been detected.
-
-
-Automatic baselines are available 7 days after the application or service has been detected.
-
-
-Automatic baselines are available 2 hours after the application or service has been detected.
+    - [ ] Automatic baselines are available immediately after the application or service has been detected.
+    - [ ] Automatic baselines are available 1 hour after the application or service has been detected.
+    - [ ] Automatic baselines are available 7 days after the application or service has been detected.
+    - [ ] Automatic baselines are available 2 hours after the application or service has been detected.
 ### **Question 58)**
-What feature can you use to help organize and manage things like anomaly detection and OneAgent updates for hosts in your environment?
-
-
-Host groups
-
-
-Host configuration rules
-
-
-Management groups
-
-
-Host tags
+- What feature can you use to help organize and manage things like anomaly detection and OneAgent updates for hosts in your environment?
+    - [ ] Host groups
+    - [ ] Host configuration rules
+    - [ ] Management groups
+    - [ ] Host tags
 ### **Question 59)**
-What options are available for configuring environment wide privacy settings?
-
-
-Mask end users' IP addresses and GPS coordinates
-
-
-Disable unique user id assignment
-
-
-Mask personal data in URIs
-
-
-Mask user actions
-
-
-Mask data entry fields
+- What options are available for configuring environment wide privacy settings?
+    - [ ] Mask end users' IP addresses and GPS coordinates
+    - [ ] Disable unique user id assignment
+    - [ ] Mask personal data in URIs
+    - [ ] Mask user actions
+    - [ ] Mask data entry fields
 ### **Question 60)**
-How can you check that a web application is successfully enabled with RUM?
-
-
-The web page has the JS_Agent_Enabled indicator set to On.
-
-
-The web page shows the "Powered By Dynatrace" logo.
-
-
-The web page displays a "Dynatrace Inside" logo at the bottom of the page.
-
-
-The web page source contains a script tag with the JavaScript Agent referenced.
+- How can you check that a web application is successfully enabled with RUM?
+    - [ ] The web page has the JS_Agent_Enabled indicator set to On.
+    - [ ] The web page shows the "Powered By Dynatrace" logo.
+    - [ ] The web page displays a "Dynatrace Inside" logo at the bottom of the page.
+    - [ ] The web page source contains a script tag with the JavaScript Agent referenced.
 ### **Question 61)**
-How does Dynatrace use browser cookies? Select all that apply.
-
-clear
-
-To provide authentication with Dynatrace SaaS.
-
-
-To provide root cause analysis.
-
-
-To monitor site performance.
-
-
-To analyze website usage.
-
-
-To track user behavior.
+- How does Dynatrace use browser cookies? Select all that apply.
+    - [ ] To provide authentication with Dynatrace SaaS.
+    - [ ] To provide root cause analysis.
+    - [ ] To monitor site performance.
+    - [ ] To analyze website usage.
+    - [ ] To track user behavior.
 ### **Question 62)**
-When would Agentless Real User Monitoring be used in a Dynatrace environment?
-
-
-Agentless RUM should be used only when you want to enable deep services monitoring.
-
-
-Agentless RUM is required in order to enable real user monitoring on a virtual host.
-
-
-Agentless RUM should be used only when the Dynatrace OneAgent cannot be installed on a host.
-
-
-If a page in a web application uses JavaScript and you wish to enable real user monitoring, you will need to use Agentless RUM in order to generate the correct JavaScript tags in the correct locations.
+- When would Agentless Real User Monitoring be used in a Dynatrace environment?
+    - [ ] Agentless RUM should be used only when you want to enable deep services monitoring.
+    - [ ] Agentless RUM is required in order to enable real user monitoring on a virtual host.
+    - [ ] Agentless RUM should be used only when the Dynatrace OneAgent cannot be installed on a host.
+    - [ ] If a page in a web application uses JavaScript and you wish to enable real user monitoring, you will need to use Agentless RUM in order to generate the correct JavaScript tags in the correct locations.
 ### **Question 63)**
-On the Service Quality report, what is used to calculate the Application score?
-
-
-The average Apdex value and the total number of problems
-
-
-The average of the Apdex values over the last month
-
-
-The average Apdex value and the total number of user actions
-
-
-The average Apdex value and the percentage of user actions not affected by problems
+- On the Service Quality report, what is used to calculate the Application score?
+    - [ ] The average Apdex value and the total number of problems
+    - [ ] The average of the Apdex values over the last month
+    - [ ] The average Apdex value and the total number of user actions
+    - [ ] The average Apdex value and the percentage of user actions not affected by problems
 ### **Question 64)**
-How long is Real User monitoring data for User Sessions stored?
-
-
-10 days
-
-
-90 days
-
-
-35 days
-
-
-4 weeks
+- How long is Real User monitoring data for User Sessions stored?
+    - [ ] 10 days
+    - [ ] 90 days
+    - [ ] 35 days
+    - [ ] 4 weeks
 ### **Question 65)**
-When creating a rule for an alerting profile, which of the following is NOT an option for the problem severity level?
-
-
-Information
-
-
-Error
-
-
-Availability
-
-
-Slowdown
+- When creating a rule for an alerting profile, which of the following is NOT an option for the problem severity level?
+    - [ ] Information
+    - [ ] Error
+    - [ ] Availability
+    - [ ] Slowdown
 ### **Question 66)**
-From the page shown in the image, what can you tell about the Problem status of the environment? Select all that apply.
+- From the page shown in the image, what can you tell about the Problem status of the environment? Select all that apply.
+    
+    <p align=center><img src=https://i.imgur.com/dyFReRk.png width=50%></p>
 
-<img src=https://i.imgur.com/dyFReRk.png width=40%>
-
-From Apr 12 22:00 - Apr 13 00:00, there were 3 problems identified.
-
-
-Less than 6 problems occurred on Apr 11.
-
-
-Most problems were caused by a network problem.
-
-
-Of the problems that have occurred over the last 72 hours, all of them have been closed.
-
-
-Users were affected by the problems that occurred in the selected time frame.
+    - [ ] From Apr 12 22:00 - Apr 13 00:00, there were 3 problems identified.
+    - [ ] Less than 6 problems occurred on Apr 11.
+    - [ ] Most problems were caused by a network problem.
+    - [ ] Of the problems that have occurred over the last 72 hours, all of them have been closed.
+    - [ ] Users were affected by the problems that occurred in the selected time frame.
 ### **Question 67)**
-What does Dynatrace consider as an External Service?
-
-
-Any service which is called by your application or another service, and is directly monitored by OneAgent.
-
-
-A third-party service which is outside of your application environment, but still monitored by OneAgent.
-
-
-JDBC calls sent to your database which retrieve performance metrics to deliver to OneAgent.
-
-
-Any service which is called by your application or another service, but is NOT directly monitored by OneAgent.
+- What does Dynatrace consider as an External Service?
+    - [ ] Any service which is called by your application or another service, and is directly monitored by OneAgent.
+    - [ ] A third-party service which is outside of your application environment, but still monitored by OneAgent.
+    - [ ] JDBC calls sent to your database which retrieve performance metrics to deliver to OneAgent.
+    - [ ] Any service which is called by your application or another service, but is NOT directly monitored by OneAgent.
 ### **Question 68)**
-What is a Monitoring Candidate within Dynatrace?
-
-Hosts which are indicated as being monitored remotely by OneAgent and communicate with other hosts in your environment.
-
-
-A host which has NOT communicated with OneAgent within the last two hours.
-
-
-A host that communicates with a monitored host in your environment but does not have OneAgent installed.
-
-
-Any entity in your environment which should be providing data to Dynatrace, but currently isn't.
+- What is a Monitoring Candidate within Dynatrace?
+    - [ ] Hosts which are indicated as being monitored remotely by OneAgent and communicate with other hosts in your environment.
+    - [ ] A host which has NOT communicated with OneAgent within the last two hours.
+    - [ ] A host that communicates with a monitored host in your environment but does not have OneAgent installed.
+    - [ ] Any entity in your environment which should be providing data to Dynatrace, but currently isn't.
 ### **Question 69)**
-Why would you adjust performance thresholds for different key user actions?
+- Why would you adjust performance thresholds for different key user actions?
 
-clear
-
-This is a requirement when a key user action is created.
-
-
-To ensure problems are only raised for the most important user actions.
-
-
-The acceptable performance for an action can vary based on user expectations or the time needed to perform its function.
-
-
-Marking an action as a key user action is the only way to change performance thresholds within your application.
+    - [ ] This is a requirement when a key user action is created.
+    - [ ] To ensure problems are only raised for the most important user actions.
+    - [ ] The acceptable performance for an action can vary based on user expectations or the time needed to perform its function.
+    - [ ] Marking an action as a key user action is the only way to change performance thresholds within your application.
 ### **Question 70)**
-How do you configure agentless Real User Monitoring for an application?
-
-
-You manually insert a JavaScript tag or code snippet into each of your application’s pages.
-
-
-Add the x-dynatrace header followed by your application's custom Dynatrace ID.
-
-
-You enable the "agentless" option while installing or upgrading OneAgent.
-
-
-Set the environment variable DT_APPLICATIONID=`<name>` on your host.
+- How do you configure agentless Real User Monitoring for an application?
+    - [ ] You manually insert a JavaScript tag or code snippet into each of your application’s pages.
+    - [ ] Add the x-dynatrace header followed by your application's custom Dynatrace ID.
+    - [ ] You enable the "agentless" option while installing or upgrading OneAgent.
+    - [ ] Set the environment variable DT_APPLICATIONID=`<name>` on your host.
