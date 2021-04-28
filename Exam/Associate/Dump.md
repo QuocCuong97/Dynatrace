@@ -433,7 +433,7 @@
 ### **Question 66)**
 - From the page shown in the image, what can you tell about the Problem status of the environment? Select all that apply.
     
-    <p align=center><img src=https://i.imgur.com/dyFReRk.png width=50%></p>
+    <p align=center><img src=https://i.imgur.com/dyFReRk.png width=60%></p>
 
     - [ ] From Apr 12 22:00 - Apr 13 00:00, there were 3 problems identified.
     - [ ] Less than 6 problems occurred on Apr 11.
