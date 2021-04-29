@@ -339,7 +339,7 @@
     2. Log in to the App with your Dynatrace environment credentials
 ### **Question 51)**
 - What information is shown in a Smartscape?
-    - [ ] The visual representation of all entities automatically discovered in the observed environment and the dependencies between them.
+    - [x] The visual representation of all entities automatically discovered in the observed environment and the dependencies between them.
     - [ ] The current OneAgent deployment status across all monitored entities.
     - [ ] A customized visualization of the environment topology, shown as desired by the user. It may not necessarily reflect the actual environment topology.
     - [ ] The entities in the monitored environment that have been tagged for inclusion in automatic root cause analysis, either manually or automatically (rule-based).
@@ -348,7 +348,7 @@
     - [ ] The communication between the services is unstable. For example, there are some failed requests.
     - [ ] The communication status is fine, with no outages.
     - [ ] The services should be communicating, but due to a problem, there is no communication between the services.
-    - [ ] There has been communication between the services in the past, but not recently.
+    - [x] There has been communication between the services in the past, but not recently.
 ### **Question 53)**
 - Which approaches are used to determine whether or not a problem should be raised? Select all that apply.
     - [ ] Built-in static thresholds
