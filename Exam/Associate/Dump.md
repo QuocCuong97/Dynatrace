@@ -69,13 +69,13 @@
 - Which of the following are types of ActiveGates? Select all that apply.
     - [ ] Environment ActiveGates that are only used with Dynatrace Managed installations.
     - [ ] Cluster ActiveGates that are only used with Dynatrace SaaS.
-    - [ ] Environment ActiveGates, that belong to one specific tenant.
-    - [ ] Cluster ActiveGates, that are shared across tenants.
+    - [x] Environment ActiveGates, that belong to one specific tenant.
+    - [x] Cluster ActiveGates, that are shared across tenants.
 ### **Question 12)**
 - You have set up ActiveGates in your environment. How can you check the installation status?
     - [ ] From the Deploy Dynatrace page, click Install ActiveGate to see a list of existing ActiveGates and their installed version.
     - [ ] From Dynatrace Settings, you can access Monitored technologies which includes an overview of installed ActiveGates.
-    - [ ] From the Dynatrace Deployment status page, you can review the Dynatrace ActiveGates, and view the installed version of each ActiveGate.
+    - [x] From the Dynatrace Deployment status page, you can review the Dynatrace ActiveGates, and view the installed version of each ActiveGate.
     - [ ] From the Reports view, select the ActiveGate option to see a list of existing ActiveGates and their installed version.
 ### **Question 13)**
 - Which of the following are functions that OneAgent provides in your Dynatrace environment?
@@ -159,7 +159,7 @@
 ### **Question 25)**
 - What is a PurePath?
     - [ ] A PurePath is a real-time view of all the components and processes in your application infrastructure.
-    - [ ] A PurePath is diagnostic information available for every single transaction which enables more accurate reporting, and faster root cause analysis.
+    - [x] A PurePath is diagnostic information available for every single transaction which enables more accurate reporting, and faster root cause analysis.
     - [ ] A PurePath monitors the performance of an application and its services across the entire user session.
     - [ ] A PurePath is a simulated user visit that allows you to monitor a business critical workflow.
 ### **Question 26)**
@@ -170,11 +170,11 @@
     - [ ] You can define key process attributes.
 ### **Question 27)**
 - Which statements about ActiveGates are true? Select all that apply.
-    - [ ] By using an ActiveGate, firewall settings can be simplified as only the host running the ActiveGate needs to be connected to the Dynatrace Server.
-    - [ ] An Environment ActiveGate is required to allow OneAgent to send data to the Dynatrace server.
+    - [x] By using an ActiveGate, firewall settings can be simplified as only the host running the ActiveGate needs to be connected to the Dynatrace Server.
+    - [] An Environment ActiveGate is required to allow OneAgent to send data to the Dynatrace server.
     - [ ] There cannot be more than one Cluster ActiveGate installed in a monitored environment.
-    - [ ] The ActiveGate bundles the OneAgent traffic.
-    - [ ] For VMware monitoring, an Environment ActiveGate is required when using Dynatrace SaaS.
+    - [x] The ActiveGate bundles the OneAgent traffic.
+    - [x] For VMware monitoring, an Environment ActiveGate is required when using Dynatrace SaaS.
 ### **Question 28)**
 - What is the relative timeframe used for traffic anomaly detection?
     - [ ] Average on this day of week for the month
@@ -361,7 +361,7 @@
     - [ ] An overview of the topological dependencies of processes, and services, vertically and horizontally
     - [ ] The sequence of service calls triggered by a single service request
     - [ ] An overview of applications and services, and the impact of any performance problems on your environment
-    - [ ] Applications or services using a service and the calls the service makes to other services or databases
+    - [x] Applications or services using a service and the calls the service makes to other services or databases
 ### **Question 55)**
 - You want to ensure that certain content is loading on a web page for users in Europe. How can you check this?
     - [ ] Create a Browser Clickpath with a location in Europe that ends with a validation check for a specific page element.
@@ -398,7 +398,7 @@
     - [ ] The web page has the JS_Agent_Enabled indicator set to On.
     - [ ] The web page shows the "Powered By Dynatrace" logo.
     - [ ] The web page displays a "Dynatrace Inside" logo at the bottom of the page.
-    - [ ] The web page source contains a script tag with the JavaScript Agent referenced.
+    - [x] The web page source contains a script tag with the JavaScript Agent referenced.
 ### **Question 61)**
 - How does Dynatrace use browser cookies? Select all that apply.
     - [ ] To provide authentication with Dynatrace SaaS.
@@ -442,7 +442,7 @@
     - [ ] Users were affected by the problems that occurred in the selected time frame.
 ### **Question 67)**
 - What does Dynatrace consider as an External Service?
-    - [ ] Any service which is called by your application or another service, and is directly monitored by OneAgent.
+    - [x] Any service which is called by your application or another service, and is directly monitored by OneAgent.
     - [ ] A third-party service which is outside of your application environment, but still monitored by OneAgent.
     - [ ] JDBC calls sent to your database which retrieve performance metrics to deliver to OneAgent.
     - [ ] Any service which is called by your application or another service, but is NOT directly monitored by OneAgent.
