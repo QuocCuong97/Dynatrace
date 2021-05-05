@@ -37,3 +37,5 @@
 #### **1.1.5) Dynatrace OneAgent**
 - **Dynatrace OneAgent** được cài đặt trên mỗi môi trường được monitor.
 - **Dynatrace OneAgent** chịu trách nhiệm thu thập toàn bộ dữ liệu hoạt động của môi trường được monitor và gửi dữ liệu đó về **Dynatrace Server**.
+### **1.2) Deployment**
+#### **1.2.1) 
