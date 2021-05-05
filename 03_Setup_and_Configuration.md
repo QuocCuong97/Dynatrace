@@ -38,4 +38,10 @@
 - **Dynatrace OneAgent** được cài đặt trên mỗi môi trường được monitor.
 - **Dynatrace OneAgent** chịu trách nhiệm thu thập toàn bộ dữ liệu hoạt động của môi trường được monitor và gửi dữ liệu đó về **Dynatrace Server**.
 ### **1.2) Deployment**
-#### **1.2.1) 
+- Có nhiều kịch bản triển khai khác nhau cho Dynatrace Managed :
+#### **1.2.1) Kịch bản 1 : Thiết lập cơ bản
+- Dưới đây là mô hình khi muốn cài đặt **Dynatrace Managed** và thiết lập một hoặc nhiều cluster node :
+
+    <img src=https://i.imgur.com/o3ssA3E.png>
+
+- Nếu không cấu hình gì thêm, 1 cluster chỉ có thể truy cập trong nội bộ và mở cổng `443` cho các REST API và
