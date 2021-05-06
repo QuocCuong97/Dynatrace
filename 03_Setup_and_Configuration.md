@@ -46,7 +46,7 @@
 
 - Nếu không cấu hình gì thêm, 1 cluster chỉ có thể truy cập trong nội bộ và mở cổng `443` cho các REST API, traffic của **OneAgent** và **WebUI**.
 - Mặc định, remote access từ **Mission Control** đã được bật sẵn. Nó cho phép **Dynatrace** thực hiện giám sát và healthcheck cụm **Dynatrace Managed Cluster**. Mỗi kết nối đều được bảo mật với **TLS**.
-#### **1.2.2) Kịch bản 2: Pure Dynatrace Managed setup**
+#### **1.2.2) Kịch bản 2: Cài đặt mới Dynatrace Managed**
 - Nếu muốn cluster của bạn nhận được dữ liệu giám sát từ các OneAgent được cài ngoài mạng, hoặc muốn sử dụng dịch vụ **Digital Experience Monitoring (DEM)**, cần mở kết nối từ cluster ra mạng ngoài và cấu hình IP Public.
 - Dịch vụ **DEM** bao gồm
     - **Synthetic Monitoring**
@@ -55,3 +55,23 @@
     - **Real User Monitoring qua browser extension**
     - **Communication với Dynatrace mobile app**
 - Mở kết nối cluster thẳng ra mạng ngoài là không nên vì một số lý do bảo mật. Do đó, nên sử dụng 1 hoặc nhiều **Cluster ActiveGate** làm proxy trung gian để xử lý trước lưu lượng **OneAgent** và **DEM**. **Cluster ActiveGate** sẽ được nhận ra bởi cluster và có thể được cấu hình thông qua **Cluster Management Console** tương tự như các cluster node.
+- Mô hình dưới đây thể hiện các port cần mở giữa các thành phần :
+
+    <img src=https://i.imgur.com/LzGHiBZ.png>
+
+- **Cluster ActiveGate** yêu cầu :
+    - 1 IP Public
+    - 1 domain name đi kèm SSL, bởi các kết nối ra bên ngoài chỉ hỗ trợ HTTPS (port `443`). Domain này phải khác domain của WebUI. Có thể chọn tự cung cấp domain và SSL hoặc **Dynatrace** sẽ tự làm việc đó. **Dynatrace** sẽ tự gen ra một domain đại diện và chứng chỉ SSL đi kèm.
+- Đối với trường hợp hệ thống tải cao (high-load), nên setup 2 **load-balanced Cluster ActiveGate** với cùng domain name và certificate. Với trường hợp hệ thống ít tải hơn (low-load), có thể sử dụng 1 Cluster ActiveGate là được. Tuy nhiên, nên cân nhắc cài đặt các **Environment ActiveGate** riêng cho từng môi trường.
+- Vì **Environment ActiveGate** bắt đầu giao tiếp với **Cluster ActiveGate** ngay sau khi cài đặt, **Cluster ActiveGate** cần sẵn sàng hoạt động qua public IP từ trước. Do đó, nếu định sử dụng **Environment ActiveGate**, cần chú ý thứ tự triển khai sau :
+- Cài đặt **Dynatrace Managed Cluster**
+- Cài đặt **Cluster ActiveGate** và đảm bảo nó có thể kết nối tới **Dynatrace Managed Cluster**. Ngoài ra, cần đảm bảo **Cluster ActiveGate** có IP Public và có thể truy cập từ mạng ngoài.
+- Cài đặt **Environment ActiveGate** và cung cấp IP public của **Cluster ActiveGate** cho kết nối ra ngoài.
+> ***Chú ý*** : Lưu lượng của WebUI - hay cluster administration (thông qua **Cluster Management Console**) phải on-premises, ở bên trong mạng nội bộ. WebUI phải được kết nối thông qua **HTTPS** (yêu cầu chứng chỉ **TLS**). Có thể sử dụng chứng chỉ self-signed, tuy nhiên sẽ không an toàn bằng cách sử dụng những tên miền và SSL hợp lệ, hoặc được gen tự động bởi **Dynatrace**. Mặc định, mỗi cluster sẽ được cấp miễn phí một subdomain với hậu tố `*.dynatrace-managed.com` với chứng chỉ hợp lệ từ **Let's Enscrypt**. Chú ý **Cluster ActiveGate** không hỗ trợ thiết lập proxy cho lưu lượng WebUI.
+#### **1.2.3) Kịch bản 3: Tích hợp với môi trường IT hiện có**
+- Trong kịch bản phức tạp hơn, bạn muốn nhúng **Dynatrace Managed** trong hạ tầng IT hiện có với số lượng lớn các thiết bị có sẵn, mô hình dưới đây cho thấy **load-balancer** được cung cấp từ phía khách hàng đặt trước **Cluster ActiveGate domain** và **proxy** cũng do khách hàng cung cấp cho giao tiếp bên ngoài với **Mission Control**.
+
+    <img src=https://i.imgur.com/FUntOqT.png>
+
+#### **1.2.4) Kịch bản 4: Môi trường High-Availability được phân bố rộng rãi với tính năng khôi phục tự động (automatic recovery)**
+- **Dynatrace** cho phép bạn 
