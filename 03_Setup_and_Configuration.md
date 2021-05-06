@@ -39,9 +39,19 @@
 - **Dynatrace OneAgent** chịu trách nhiệm thu thập toàn bộ dữ liệu hoạt động của môi trường được monitor và gửi dữ liệu đó về **Dynatrace Server**.
 ### **1.2) Deployment**
 - Có nhiều kịch bản triển khai khác nhau cho Dynatrace Managed :
-#### **1.2.1) Kịch bản 1 : Thiết lập cơ bản
+#### **1.2.1) Kịch bản 1: Thiết lập cơ bản**
 - Dưới đây là mô hình khi muốn cài đặt **Dynatrace Managed** và thiết lập một hoặc nhiều cluster node :
 
     <img src=https://i.imgur.com/o3ssA3E.png>
 
-- Nếu không cấu hình gì thêm, 1 cluster chỉ có thể truy cập trong nội bộ và mở cổng `443` cho các REST API và
+- Nếu không cấu hình gì thêm, 1 cluster chỉ có thể truy cập trong nội bộ và mở cổng `443` cho các REST API, traffic của **OneAgent** và **WebUI**.
+- Mặc định, remote access từ **Mission Control** đã được bật sẵn. Nó cho phép **Dynatrace** thực hiện giám sát và healthcheck cụm **Dynatrace Managed Cluster**. Mỗi kết nối đều được bảo mật với **TLS**.
+#### **1.2.2) Kịch bản 2: Pure Dynatrace Managed setup**
+- Nếu muốn cluster của bạn nhận được dữ liệu giám sát từ các OneAgent được cài ngoài mạng, hoặc muốn sử dụng dịch vụ **Digital Experience Monitoring (DEM)**, cần mở kết nối từ cluster ra mạng ngoài và cấu hình IP Public.
+- Dịch vụ **DEM** bao gồm
+    - **Synthetic Monitoring**
+    - **Agentless Real User Monitoring**
+    - **Mobile Real User Monitoring**
+    - **Real User Monitoring qua browser extension**
+    - **Communication với Dynatrace mobile app**
+- Mở kết nối cluster thẳng ra mạng ngoài là không nên vì một số lý do bảo mật. Do đó, nên sử dụng 1 hoặc nhiều **Cluster ActiveGate** làm proxy trung gian để xử lý trước lưu lượng **OneAgent** và **DEM**. **Cluster ActiveGate** sẽ được nhận ra bởi cluster và có thể được cấu hình thông qua **Cluster Management Console** tương tự như các cluster node.
