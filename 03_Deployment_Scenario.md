@@ -1,4 +1,4 @@
-# Cài đặt và cấu hình Dynatrace
+# Các mô hình triển khai Dynatrace
 ## **1) Dynatrace Managed**
 ### **1.1) Các thành phần**
 - Các thành phần cơ bản của **Dynatrace Managed** được mô tả qua hình sau :
@@ -74,4 +74,25 @@
     <img src=https://i.imgur.com/FUntOqT.png>
 
 #### **1.2.4) Kịch bản 4: Môi trường High-Availability được phân bố rộng rãi với tính năng khôi phục tự động (automatic recovery)**
-- **Dynatrace** cho phép bạn 
+- **Dynatrace** cho phép bạn triển khai mô hình **high-availability** thông qua các mạng phân tán cung cấp khả năng downtime gần như bằng 0 và cho phép giám sát liên tục mà không bị mất dữ liệu trong quá trình failover. Giải pháp này giúp tiết kiệm chi phí về việc phân bổ compute và storage bằng cách loại bỏ bớt các nhu cầu về máy chủ khôi phục dự phòng riêng biệt và cơ sở hạ tầng liên quan để lưu trữ và truyền dữ liệu sao lưu. Để tính toán dung lượng cần thiết, cần coi các node trong datacenter bổ sung là dự phòng, thay vì coi noa là phần mở rộng, và có kế hoạch cân bằng cả 2 datacenter như nhau.
+- [Tìm hiểu thêm mô hình **High-Availability**](https://www.dynatrace.com/support/help/setup-and-configuration/dynatrace-managed/fault-domain-awareness/premium-high-availability/)
+- Để triển khai mô hình này, cần tách riêng license cho các datacenter :
+
+    <img src=https://i.imgur.com/GE487Mp.png>
+
+## **2) Cấu hình bắt buộc cho các trường hợp sử dụng traffic riêng biệt**
+- Bảng sau đây tổng hợp cấu hình bắt buộc cho từng trường hợp sử dụng traffic riêng biệt. 
+
+    | Traffic type | Public IP | Valid SSL certificate |
+    |--------------|-----------|-----------------------|
+    | OneAgent (on-premises) | | |
+    | OneAgent (external) | x | |
+    | RUM (on-premises) | | |
+    | RUM (external) | | |
+    | Agentless RUM (on-premises) | | x |
+    | Agentless RUM (external) | x | x |
+    | Mobile RUM (on-premises) | | x |
+    | Mobile RUM (external) | x | x |
+    | Synthetic | x | |
+- **Real User Monitoring (RUM)**, **agentless RUM**, and **mobile RUM** thường liên quan tới traffic của user và hoạt động của trình duyệt (xảy ra ở mạng ngoài), sử dụng chung endpoint để truyền dữ liệu giám sát tới **Dynatrace**
+## **3) Các đáp ứng về hệ thống khi cài đặt Dynatrace Managed Cluster**
