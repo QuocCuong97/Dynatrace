@@ -27,5 +27,14 @@
         ```sh
         /bin/sh dynatrace-managed.sh
         ```
-### **Bước 4: Kết thúc quá trình cài đặt
-- Copy đường dẫn được cung cấp ở cuối quá trình cài đặt và paste lên trình duyệt để 
+### **Bước 4: Kết thúc quá trình cài đặt**
+- Copy đường dẫn được cung cấp ở cuối quá trình cài đặt và paste lên trình duyệt để hoàn tất quá trình.
+- Nhập tên môi trường monitoring đầu tiên và setup tài khoản admin. Sau đó, chọn ***Next*** để hoàn thành và log in:
+
+    <img src=https://i.imgur.com/VOY3TkT.png width=50%>
+
+- Người dùng sẽ được điều hướng thẳng vào giao diện **Cluster Management Console**. Một domain mặc định sẽ được tự động generate, có thể được sử dụng thay vì địa chỉ IP kèm HTTPS.
+
+    <img src=https://i.imgur.com/20bgagd.png width=60%>
+
+- Từ menu của **Cluster Management Console**, chọn ***Environments*** để xem môi trường mới tạo. Chọn vào môi trường và chọn ***Go to environment*** để truy cập web UI của môi trường. Có thể tạo thêm các môi trường.
