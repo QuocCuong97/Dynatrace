@@ -2,7 +2,7 @@
 ### **Question 1)**
 - Why is it a best practice to define extra metadata, and not tags, on a host system?
     - [ ] It isn't a best practice. Tags are easy to define and change on a host on the fly and they can pass dynamic data to Dynatrace.
-    - <input type="checkbox" checked> Host tags can only be assigned automatically via the metadata delivered to Dynatrace.
+    - [x] Host tags can only be assigned automatically via the metadata delivered to Dynatrace.
     - [ ] Tags defined on the host can only be assigned manually, making them difficult to manage. Metadata is contained in a config file on the host, which is easier to define.
     - [ ] Tags defined on the system can be cumbersome to change and require pre-planning, but Dynatrace can use the metadata to define tags and management zones, or use the metadata dynamically within charts and dashboards.
 ### **Question 2)**
