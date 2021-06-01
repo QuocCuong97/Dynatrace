@@ -98,7 +98,7 @@
 ### **Question 16)**
 - You are interested in analyzing user sessions based on a specific browser and version. How can you see a visual representation across all monitored applications with user activity?
     - [ ] For all user sessions, you can search for a specific browser and version, but the browser distribution cannot be visualized.
-    - [ ] From the User Sessions page, you can Chart results by 'Browser' . This provides a sunburst style chart as the one shown, where you can drill down into the desired interface type, the browser and then the version.
+    - [x] From the User Sessions page, you can Chart results by 'Browser' . This provides a sunburst style chart as the one shown, where you can drill down into the desired interface type, the browser and then the version.
         
         <p align=center><img src=https://i.imgur.com/5QAQOPI.png width=30%></p>
 
