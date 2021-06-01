@@ -2,7 +2,7 @@
 ### **Question 1)**
 - Why is it a best practice to define extra metadata, and not tags, on a host system?
     - [ ] It isn't a best practice. Tags are easy to define and change on a host on the fly and they can pass dynamic data to Dynatrace.
-    - [ ] Host tags can only be assigned automatically via the metadata delivered to Dynatrace.
+    - [x] Host tags can only be assigned automatically via the metadata delivered to Dynatrace.
     - [ ] Tags defined on the host can only be assigned manually, making them difficult to manage. Metadata is contained in a config file on the host, which is easier to define.
     - [ ] Tags defined on the system can be cumbersome to change and require pre-planning, but Dynatrace can use the metadata to define tags and management zones, or use the metadata dynamically within charts and dashboards.
 ### **Question 2)**
@@ -21,18 +21,18 @@
     - [ ] Instances of executed computer programs. They may be containers that host services.
 ### **Question 4)**
 - Which of the following are advantages to marking an action as a key user action? Select all that apply.
-    - [ ] You can adapt the Anomaly detection settings for the action
+    - [x] You can adapt the Anomaly detection settings for the action
     - [ ] This will highlight the user action in all views and charts
-    - [ ] The retention time of the action’s full historical data is extended
+    - [x] The retention time of the action’s full historical data is extended
     - [ ] This reduces the duration of the user action by prioritizing the user action’s web request
-    - [ ] It tells Dynatrace AI Anomaly Detection to consider the user action
+    - [x] It tells Dynatrace AI Anomaly Detection to consider the user action
     - [ ] You can customize the key performance metric for the action
 ### **Question 5)**
 - Which feature in the Dynatrace user interface allows you to select a period of time to display across all views and pages you visit?
     - [ ] Dynatrace Super Search
     - [ ] There is no option to set this globally.
     - [ ] The Global Time Frame field in the dashboard properties
-    - [ ] Timeframe selector
+    - [x] Timeframe selector
 ### **Question 6)**
 - Which feature in the Dynatrace user interface allows you to select a period of time to display across all views and pages you visit?
     - [ ] Dynatrace Super Search
@@ -148,12 +148,12 @@
 - When you record a browser clickpath, what are the interactions with your web application captured as?
     - [ ] A video of the actions to be played back
     - [ ] A grouping of URLs
-    - [ ] A series of different types of events
+    - [x] A series of different types of events
     - [ ] User actions in a session
 ### **Question 24)**
 - Why is it important to include Dynatrace network monitoring metrics as part of a performance analysis?
     - [ ] It is not important to include, because it is enough to know that a process has sufficient server resources and is responding in a timely manner.
-    - [ ] The network is part of your application's underlying infrastructure. As well, network performance can be a root cause for an application problem.
+    - [x] The network is part of your application's underlying infrastructure. As well, network performance can be a root cause for an application problem.
     - [ ] Analysis of network monitoring metrics often results in the discovery of application errors from an unrelated process which is hoarding network resources.
     - [ ] Dynatrace network monitoring provides detailed information about user network speeds to determine their connectivity to a monitored application.
 ### **Question 25)**
@@ -166,12 +166,12 @@
 - What can you do to change how process groups are detected?
     - [ ] You cannot change how process groups are detected.
     - [ ] You can configure OneAgent to detect additional processes via the setup process wizard.
-    - [ ] You can create your own process group detection rules.
+    - [x] You can create your own process group detection rules.
     - [ ] You can define key process attributes.
 ### **Question 27)**
 - Which statements about ActiveGates are true? Select all that apply.
     - [x] By using an ActiveGate, firewall settings can be simplified as only the host running the ActiveGate needs to be connected to the Dynatrace Server.
-    - [] An Environment ActiveGate is required to allow OneAgent to send data to the Dynatrace server.
+    - [ ] An Environment ActiveGate is required to allow OneAgent to send data to the Dynatrace server.
     - [ ] There cannot be more than one Cluster ActiveGate installed in a monitored environment.
     - [x] The ActiveGate bundles the OneAgent traffic.
     - [x] For VMware monitoring, an Environment ActiveGate is required when using Dynatrace SaaS.
@@ -180,29 +180,29 @@
     - [ ] Average on this day of week for the month
     - [ ] Average of the last two weeks
     - [ ] The previous day
-    - [ ] 7 days ago
+    - [x] 7 days ago
 ### **Question 29)**
 - Which of the following can conversion goals be set up to capture? Select all that apply.
-    - [ ] Session duration
+    - [x] Session duration
     - [ ] JavaScript variable
-    - [ ] User action
-    - [ ] Destination
+    - [x] User action
+    - [x] Destination
     - [ ] Meta tag contents
 ### **Question 30)**
 - How can you chart User Sessions that include a particular action?
     - [ ] Add a filter for user action duration
     - [ ] Add a filter that includes the count of the user action
     - [ ] Chart results by the application
-    - [ ] Add a filter for the user action name
+    - [x] Add a filter for the user action name
 ### **Question 31)**
 - For a key request, how long is 1-minute interval granularity request history available?
-    - [ ] 14 days
+    - [x] 14 days
     - [ ] Forever
     - [ ] 400 days
     - [ ] 28 days
 ### **Question 32)**
 - How long does it take for a user session to be visible in the user session search?
-    - [ ] Typically within 4 minutes.
+    - [x] Typically within 4 minutes.
     - [ ] Immediately when a user sessions is finished.
     - [ ] Typically within 20 minutes of the user session ending.
     - [ ] Not until 30 minutes after the user session starts.
@@ -210,17 +210,17 @@
 - What are private synthetic locations in Dynatrace?
     - [ ] Private locations can only be defined in Azure for Synthetic testing.
     - [ ] They are private locations to test out new OneAgent beta features.
-    - [ ] They are used to execute browser and HTTP monitors from your own infrastructure.
+    - [x] They are used to execute browser and HTTP monitors from your own infrastructure.
     - [ ] Private locations is a feature only available to SaaS customers.
 ### **Question 34)**
 - What is the data retention period for RUM Session Replay data?
     - [ ] Configurable up to 60 days
     - [ ] Fixed at 35 days
     - [ ] Fixed at 10 days
-    - [ ] Configurable up to 35 days
+    - [x] Configurable up to 35 days
 ### **Question 35)**
 - How is user session duration calculated?
-    - [ ] It is the elapsed time between initiation of the first user action in a session and the completion of the last user action in the session.
+    - [x] It is the elapsed time between initiation of the first user action in a session and the completion of the last user action in the session.
     - [ ] It is the total time of all user actions from every visit made by a unique user calculated over a period of 7 days.
     - [ ] It is the elapsed time between initiation of the first user action in a session and the completion of the last user action in the session, with timeout periods factored in.
     - [ ] It is the elapsed time between initiation of the first user action in a session until 30 minutes after the completion of the last user action or when the browser has timed out.
@@ -229,16 +229,16 @@
     - [ ] Virtual host, Server block, Site
     - [ ] WSDL, Properties, Tags
     - [ ] Web application ID, Virtual Directory, WSDL
-    - [ ] Web server name, Context root, Web application ID
+    - [x] Web server name, Context root, Web application ID
 ### **Question 37)**
-- Why is transfer size an important Digital Experience Management (DEM)** metric?
+- Why is transfer size an important Digital Experience Management (DEM) metric?
     - [ ] A small transfer size means your application is performing poorly.
     - [ ] A large transfer size means your application is performing poorly.
-    - [ ] A large transfer size might not lead to poor performance, but it does use up data from a user's data plan when accessed on a mobile device.
+    - [x] A large transfer size might not lead to poor performance, but it does use up data from a user's data plan when accessed on a mobile device.
     - [ ] It is not important if it is combined with a low Visually Complete number, as the user experience is still very good.
 ### **Question 38)**
 - What is a Process group within Dynatrace?
-    - [ ] A set of processes that perform the same function across multiple hosts.
+    - [x] A set of processes that perform the same function across multiple hosts.
     - [ ] A set of processes that perform a similar function on the same host.
     - [ ] Processes you have assigned to the same group.
     - [ ] An instance of a computer program that is being executed.
@@ -248,12 +248,12 @@
     - [ ] Error
     - [ ] Slowdown
     - [ ] Resource
-    - [ ] Anomaly
+    - [x] Anomaly
 ### **Question 40)**
 - You are investigating a problem that was caused by CPU saturation on one of your monitored hosts. From the problem details, how can you see when the problem evolved and how services were affected?
     - [ ] 1. Open the applications that run on the host<br>
           2. Check the development of user actions per minute
-    - [ ] 1. Open the Visual Resolution Path and replay the problem timeline<br>
+    - [x] 1. Open the Visual Resolution Path and replay the problem timeline<br>
           2. Navigate to the affected entities to investigate them in data
     - [ ] 1. Open the Smartscape topology<br>
           2. Select the affected host<br>
@@ -271,11 +271,11 @@
     - [ ] Day of the month
 ### **Question 42)**
 - Which of the following are benefits of Dynatrace database monitoring? Select all that apply.
-    - [ ] You can see how much load is placed on your database by individual services.
+    - [x] You can see how much load is placed on your database by individual services.
     - [ ] You can manage your SQL server along with Dynatrace elements in the Dashboard.
-    - [ ] You can find out which services talk to each database most frequently.
+    - [x] You can find out which services talk to each database most frequently.
     - [ ] You can receive tips on how to improve the database calling code.
-    - [ ] You can find expensive database calls, for example those that read a lot of data.
+    - [x] You can find expensive database calls, for example those that read a lot of data.
 ### **Question 43)**
 - What is a request attribute?
     - [x] Request attributes are key/value pairs associated with a particular service request.
@@ -303,7 +303,7 @@
     - [ ] Multi-URL browser monitors, browser clickpaths, and HTTP monitors
 ### **Question 47)**
 - In a Dynatrace managed environment, why must you ensure there is outbound communication to Dynatrace Mission Control?
-    - [ ] Dynatrace Mission Control needs to provide license validation, health monitoring and automatic updates to your Dynatrace managed cluster.
+    - [x] Dynatrace Mission Control needs to provide license validation, health monitoring and automatic updates to your Dynatrace managed cluster.
     - [ ] Dynatrace Mission Control is responsible for encrypting your data before uploading it to the Dynatrace cloud.
     - [ ] It is mandatory so the Dynatrace support team can access your environment to provide troubleshooting assistance.
     - [ ] Dynatrace Mission Control acts as a proxy for the Dynatrace user interface on your server.
@@ -329,7 +329,7 @@
     2. On the Problems page, open the problem, and forward it to your mobile device
     - [ ] 1. Access Dynatrace Settings<br>
     2. On the Notifications page, enter your mobile device phone number in Other Contacts
-    - [ ] 1. Install the Dynatrace mobile application on your device<br>
+    - [x] 1. Install the Dynatrace mobile application on your device<br>
     2. Log in to the App with your Dynatrace environment credentials
 ### **Question 51)**
 - What information is shown in a Smartscape?
@@ -345,10 +345,10 @@
     - [x] There has been communication between the services in the past, but not recently.
 ### **Question 53)**
 - Which approaches are used to determine whether or not a problem should be raised? Select all that apply.
-    - [ ] Built-in static thresholds
+    - [x] Built-in static thresholds
     - [ ] User-triggered
     - [ ] User-defined static thresholds
-    - [ ] Automatic baselines
+    - [x] Automatic baselines
     - [ ] Randomized sampling
 ### **Question 54)**
 - What is visualized in a Service flow?
@@ -358,7 +358,7 @@
     - [x] Applications or services using a service and the calls the service makes to other services or databases
 ### **Question 55)**
 - You want to ensure that certain content is loading on a web page for users in Europe. How can you check this?
-    - [ ] Create a Browser Clickpath with a location in Europe that ends with a validation check for a specific page element.
+    - [x] Create a Browser Clickpath with a location in Europe that ends with a validation check for a specific page element.
     - [ ] Create a Browser Monitor with a location in Europe and a content validation rule that fails if the website content contains the elements you are concerned with.
     - [ ] Create a Browser Monitor with a location in Europe and a content validation rule that passes if the website content contains the elements you are concerned with.
     - [ ] Any monitor running from a location in Europe will generate a problem report if all elements do not load.
@@ -366,26 +366,26 @@
 - What is the smallest interval at which an HTTP monitor can execute?
     - [ ] 15 minutes
     - [ ] 5 minutes
-    - [ ] 1 minute
+    - [x] 1 minute
     - [ ] 10 minutes
 ### **Question 57)**
 - Which of the following statements about baselines is true?
     - [ ] Automatic baselines are available immediately after the application or service has been detected.
     - [ ] Automatic baselines are available 1 hour after the application or service has been detected.
     - [ ] Automatic baselines are available 7 days after the application or service has been detected.
-    - [ ] Automatic baselines are available 2 hours after the application or service has been detected.
+    - [x] Automatic baselines are available 2 hours after the application or service has been detected.
 ### **Question 58)**
 - What feature can you use to help organize and manage things like anomaly detection and OneAgent updates for hosts in your environment?
-    - [ ] Host groups
+    - [x] Host groups
     - [ ] Host configuration rules
     - [ ] Management groups
     - [ ] Host tags
 ### **Question 59)**
 - What options are available for configuring environment wide privacy settings?
-    - [ ] Mask end users' IP addresses and GPS coordinates
+    - [x] Mask end users' IP addresses and GPS coordinates
     - [ ] Disable unique user id assignment
-    - [ ] Mask personal data in URIs
-    - [ ] Mask user actions
+    - [x] Mask personal data in URIs
+    - [x] Mask user actions
     - [ ] Mask data entry fields
 ### **Question 60)**
 - How can you check that a web application is successfully enabled with RUM?
@@ -397,30 +397,30 @@
 - How does Dynatrace use browser cookies? Select all that apply.
     - [ ] To provide authentication with Dynatrace SaaS.
     - [ ] To provide root cause analysis.
-    - [ ] To monitor site performance.
-    - [ ] To analyze website usage.
-    - [ ] To track user behavior.
+    - [x] To monitor site performance.
+    - [x] To analyze website usage.
+    - [x] To track user behavior.
 ### **Question 62)**
 - When would Agentless Real User Monitoring be used in a Dynatrace environment?
     - [ ] Agentless RUM should be used only when you want to enable deep services monitoring.
     - [ ] Agentless RUM is required in order to enable real user monitoring on a virtual host.
-    - [ ] Agentless RUM should be used only when the Dynatrace OneAgent cannot be installed on a host.
+    - [x] Agentless RUM should be used only when the Dynatrace OneAgent cannot be installed on a host.
     - [ ] If a page in a web application uses JavaScript and you wish to enable real user monitoring, you will need to use Agentless RUM in order to generate the correct JavaScript tags in the correct locations.
 ### **Question 63)**
 - On the Service Quality report, what is used to calculate the Application score?
     - [ ] The average Apdex value and the total number of problems
     - [ ] The average of the Apdex values over the last month
     - [ ] The average Apdex value and the total number of user actions
-    - [ ] The average Apdex value and the percentage of user actions not affected by problems
+    - [x] The average Apdex value and the percentage of user actions not affected by problems
 ### **Question 64)**
 - How long is Real User monitoring data for User Sessions stored?
     - [ ] 10 days
     - [ ] 90 days
-    - [ ] 35 days
+    - [x] 35 days
     - [ ] 4 weeks
 ### **Question 65)**
 - When creating a rule for an alerting profile, which of the following is NOT an option for the problem severity level?
-    - [ ] Information
+    - [x] Information
     - [ ] Error
     - [ ] Availability
     - [ ] Slowdown
@@ -444,18 +444,18 @@
 - What is a Monitoring Candidate within Dynatrace?
     - [ ] Hosts which are indicated as being monitored remotely by OneAgent and communicate with other hosts in your environment.
     - [ ] A host which has NOT communicated with OneAgent within the last two hours.
-    - [ ] A host that communicates with a monitored host in your environment but does not have OneAgent installed.
+    - [x] A host that communicates with a monitored host in your environment but does not have OneAgent installed.
     - [ ] Any entity in your environment which should be providing data to Dynatrace, but currently isn't.
 ### **Question 69)**
 - Why would you adjust performance thresholds for different key user actions?
 
     - [ ] This is a requirement when a key user action is created.
-    - [ ] To ensure problems are only raised for the most important user actions.
+    - [x] To ensure problems are only raised for the most important user actions.
     - [ ] The acceptable performance for an action can vary based on user expectations or the time needed to perform its function.
     - [ ] Marking an action as a key user action is the only way to change performance thresholds within your application.
 ### **Question 70)**
 - How do you configure agentless Real User Monitoring for an application?
-    - [ ] You manually insert a JavaScript tag or code snippet into each of your application’s pages.
+    - [x] You manually insert a JavaScript tag or code snippet into each of your application’s pages.
     - [ ] Add the x-dynatrace header followed by your application's custom Dynatrace ID.
     - [ ] You enable the "agentless" option while installing or upgrading OneAgent.
     - [ ] Set the environment variable DT_APPLICATIONID=`<name>` on your host.
