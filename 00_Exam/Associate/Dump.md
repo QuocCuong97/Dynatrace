@@ -8,7 +8,7 @@
 ### **Question 2)**
 - What is required to create a Browser clickpath synthetic monitor? Select all that apply.
     - [ ] The "InPrivate" option enabled.
-    - [x] The "Allow in incognito" permission enabled.
+    - [ ] The "Allow in incognito" permission enabled.
     - [ ] Microsoft Edge with the Synthetic recorder plugin enabled.
     - [x] Google Chrome with the Synthetic recorder extension installed.
     - [ ] It should be run in Compatibility view.
@@ -34,11 +34,11 @@
     - [ ] The Global Time Frame field in the dashboard properties
     - [x] Timeframe selector
 ### **Question 6)**
-- Which feature in the Dynatrace user interface allows you to select a period of time to display across all views and pages you visit?
-    - [ ] Dynatrace Super Search
-    - [ ] There is no option to set this globally.
-    - [ ] The Global Time Frame field in the dashboard properties
-    - [x] Timeframe selector
+- What is USQL in Dynatrace?
+    - [x] User Sessions Query Language for running queries against user session data
+    - [ ] The Dynatrace version of SQL Server
+    - [ ] Unified SQL for searching for text patterns in log files
+    - [ ] Universal Structured Query Language for running statements across any detected databases
 ### **Question 7)**
 - Which key performance metrics are visible on the Network Overview page? Select all that apply.
     - [ ] Dropped Packets
@@ -125,10 +125,10 @@
     - [ ] Create another naming rule to execute after this one
     - [ ] Add a custom text value
     - [ ] An additional processing step
-    - [ ] Add a placeholder
+    - [x] Add a placeholder
 ### **Question 20)**
 - After setting up a synthetic measurement, when will a report for that measurement first appear under the Reports section?
-    - [x] After the first weekly report run (at midnight on Sundays)**
+    - [x] After the first weekly report run (at midnight on Sundays)
     - [ ] After 24 hours of data collection
     - [ ] Reports do not show synthetic measurements
     - [ ] After 10 datapoints are collected
@@ -141,9 +141,9 @@
 ### **Question 22)**
 - Which metrics are used to calculate overall Network Connectivity metrics, that is, the percentage of connections that have been successfully established? Select all that apply.
     - [ ] The number of times Network monitoring overhead increases over 5% of available CPU
-    - [ ] The number of TCP connection refused errors
-    - [ ] The number of TCP connection timeout errors
-    - [ ] The total number of connection attempts
+    - [x] The number of TCP connection refused errors
+    - [x] The number of TCP connection timeout errors
+    - [x] The total number of connection attempts
 ### **Question 23)**
 - When you record a browser clickpath, what are the interactions with your web application captured as?
     - [ ] A video of the actions to be played back
@@ -171,10 +171,10 @@
 ### **Question 27)**
 - Which statements about ActiveGates are true? Select all that apply.
     - [x] By using an ActiveGate, firewall settings can be simplified as only the host running the ActiveGate needs to be connected to the Dynatrace Server.
-    - [ ] An Environment ActiveGate is required to allow OneAgent to send data to the Dynatrace server.
+    - [x] An Environment ActiveGate is required to allow OneAgent to send data to the Dynatrace server.
     - [ ] There cannot be more than one Cluster ActiveGate installed in a monitored environment.
     - [x] The ActiveGate bundles the OneAgent traffic.
-    - [x] For VMware monitoring, an Environment ActiveGate is required when using Dynatrace SaaS.
+    - [ ] For VMware monitoring, an Environment ActiveGate is required when using Dynatrace SaaS.
 ### **Question 28)**
 - What is the relative timeframe used for traffic anomaly detection?
     - [ ] Average on this day of week for the month
@@ -264,11 +264,11 @@
           3. For each, check the metrics such as failure rate, response time, and traffic
 ### **Question 41)**
 - Which of the following are options for recurrence of Maintenance windows? Select all that apply.
-    - [ ] Custom recurring timeframe
+    - [x] Custom recurring timeframe
     - [ ] A specific day of the year, every year
-    - [ ] Day of week
-    - [ ] Daily
-    - [ ] Day of the month
+    - [x] Day of week
+    - [x] Daily
+    - [x] Day of the month
 ### **Question 42)**
 - Which of the following are benefits of Dynatrace database monitoring? Select all that apply.
     - [x] You can see how much load is placed on your database by individual services.
@@ -358,9 +358,9 @@
     - [x] Applications or services using a service and the calls the service makes to other services or databases
 ### **Question 55)**
 - You want to ensure that certain content is loading on a web page for users in Europe. How can you check this?
-    - [x] Create a Browser Clickpath with a location in Europe that ends with a validation check for a specific page element.
+    - [ ] Create a Browser Clickpath with a location in Europe that ends with a validation check for a specific page element.
     - [ ] Create a Browser Monitor with a location in Europe and a content validation rule that fails if the website content contains the elements you are concerned with.
-    - [ ] Create a Browser Monitor with a location in Europe and a content validation rule that passes if the website content contains the elements you are concerned with.
+    - [x] Create a Browser Monitor with a location in Europe and a content validation rule that passes if the website content contains the elements you are concerned with.
     - [ ] Any monitor running from a location in Europe will generate a problem report if all elements do not load.
 ### **Question 56)**
 - What is the smallest interval at which an HTTP monitor can execute?
@@ -429,11 +429,11 @@
     
     <p align=center><img src=https://i.imgur.com/dyFReRk.png width=60%></p>
 
-    - [ ] From Apr 12 22:00 - Apr 13 00:00, there were 3 problems identified.
+    - [x] From Apr 12 22:00 - Apr 13 00:00, there were 3 problems identified.
     - [ ] Less than 6 problems occurred on Apr 11.
     - [ ] Most problems were caused by a network problem.
-    - [ ] Of the problems that have occurred over the last 72 hours, all of them have been closed.
-    - [ ] Users were affected by the problems that occurred in the selected time frame.
+    - [x] Of the problems that have occurred over the last 72 hours, all of them have been closed.
+    - [x] Users were affected by the problems that occurred in the selected time frame.
 ### **Question 67)**
 - What does Dynatrace consider as an External Service?
     - [x] Any service which is called by your application or another service, and is directly monitored by OneAgent.
