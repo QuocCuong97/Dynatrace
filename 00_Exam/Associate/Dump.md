@@ -459,3 +459,46 @@
     - [ ] Add the x-dynatrace header followed by your application's custom Dynatrace ID.
     - [ ] You enable the "agentless" option while installing or upgrading OneAgent.
     - [ ] Set the environment variable DT_APPLICATIONID=`<name>` on your host.
+
+
+
+<br>
+<br>
+<br>
+
+# External Questions
+### **Question 1)**
+- How long does Dynatrace store metric data answer?
+    - [x] 5 years
+### **Question 2)**
+- From where we can set host group for particular host? (multichoice answer)
+    - [x]...
+    - [x] During installation of agent
+    - [x]...
+### **Question 3)**
+- If you want to monitor internal application or resource which is not accessible from internet then in what all ways we can do?
+### **Question 4)**
+- How Dynatrace evaluates degredation of response time slowness?
+    - [x] By default, Dynatrace uses automated baselining to detect degradation events of either the 50th percentile (Median) or the 90th percentile of the service and service method response time. Navigate to Settings > Anomaly detection > Services to find automated baselining settings. Alternatively, you can use a static threshold instead of dynamic baselining. Static thresholds are compared to the monitored 50th and 90th percentiles.
+### **Question 5)**
+- If you want to monitor PHP application only in one host then how to do it?
+### **Question 6)**
+- What are Opaque services?
+    - [x] Opaque services are services that are detected on the calling side by Dynatrace for which code-level visibility isn't available.
+### **Question 7)**
+- Which of the following are not a function of ActiveGate?
+    - [x] Detect dependencies and services in application 
+### **Question 8)**
+- What is presented in mobile application dashboard?
+### **Question 9)**
+- Which of the events has lowest severity in Dynatrace?
+    - [x] Info
+### **Question 10)** 
+- What are tags and metadata?
+    - [x] Tags in Dynatrace are basically labels or markers while metadata are key/value pairs that are inherent to any monitored entity.
+### **Question 11)** 
+- Which of the OS is not supported?
+    -  [x] Windows Phone
+### **Question 12)** 
+- Why its better to analyze and triage problem within 14 days of its evolution?
+    - [x] Because we have full granularity till 14 days
