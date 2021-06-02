@@ -502,3 +502,44 @@
 ### **Question 12)** 
 - Why its better to analyze and triage problem within 14 days of its evolution?
     - [x] Because we have full granularity till 14 days
+### **Question 13)**
+- How often does dynatrace autodiscover, analyze and store log files?
+    - [x] 1 minute
+### **Question 14)**
+- What is the retention period for session replay data in managed?
+    - [x] Configurable up to 35 days
+### **Question 15)**
+- Through what all options we can disable auto update of agents? (multichoice answer)
+### **Question 16)**
+- What is filter senstive content in request attribute capture?
+    - [x] Attribute labels
+### **Question 17)**
+- Where is metadata for services shown?
+    - [x] Properties and tags section in service dashboard
+### **Question 18)**
+- What all data shown in host dashboard? (multichoice answer)
+    - [x]...
+    - [x] Monitoring candidates
+    - [x]...
+### **Question 19)**
+- How to add performance metric for specific user action?
+### **Question 20)**
+- When is browser extension necessary?
+### **Question 21)**
+- How does Dynatrace find out Root Cause Analysis for problem?
+### **Question 22)**
+- What dimensions are use calculating Application baselines?
+### **Question 23)**
+- Why it's not recommended to change performance threshold for browser synthetic monitor within 24 hrs?
+### **Question 24)**
+- How can you enable Real User Monitoring if we cannot access host? (multichoice answer)
+    - []...
+    - [x] Browser extension
+    - [x] Agentless RUM
+### **Question 25)**
+- What options are available for browser monitor in synthetic monitoring? (multichoice answer)
+    - [x]...
+    - [x] Device type, orientation, resolution, bandwidth
+    - [x] ...
+### **Question 26)**
+- Why database is considered as an external device?
