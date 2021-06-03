@@ -379,8 +379,8 @@
 ### **Question 61)**
 - In a single-URL browser monitor, how can you ensure that a certain page element is loaded?
     - [ ] By selecting a key performance metric for the monitor.
-    - [x] By editing your single-URL browser monitor in script mode.
-    - [ ] By creating a content validation rule.
+    - [ ] By editing your single-URL browser monitor in script mode.
+    - [x] By creating a content validation rule.
     - [ ] By ensuring it is part of the clickpath.
 ### **Question 62)**
 - A user action waterfall analysis is built around W3C timings. Which of the following does Dynatrace use to group the waterfall analysis entries? Select all that apply.
