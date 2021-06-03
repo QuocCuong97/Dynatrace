@@ -353,9 +353,9 @@
 ### **Question 54)**
 - What is visualized in a Service flow?
     - [ ] An overview of the topological dependencies of processes, and services, vertically and horizontally
-    - [ ] The sequence of service calls triggered by a single service request
+    - [x] The sequence of service calls triggered by a single service request
     - [ ] An overview of applications and services, and the impact of any performance problems on your environment
-    - [x] Applications or services using a service and the calls the service makes to other services or databases
+    - [ ] Applications or services using a service and the calls the service makes to other services or databases
 ### **Question 55)**
 - You want to ensure that certain content is loading on a web page for users in Europe. How can you check this?
     - [ ] Create a Browser Clickpath with a location in Europe that ends with a validation check for a specific page element.
@@ -436,10 +436,10 @@
     - [x] Users were affected by the problems that occurred in the selected time frame.
 ### **Question 67)**
 - What does Dynatrace consider as an External Service?
-    - [x] Any service which is called by your application or another service, and is directly monitored by OneAgent.
+    - [ ] Any service which is called by your application or another service, and is directly monitored by OneAgent.
     - [ ] A third-party service which is outside of your application environment, but still monitored by OneAgent.
     - [ ] JDBC calls sent to your database which retrieve performance metrics to deliver to OneAgent.
-    - [ ] Any service which is called by your application or another service, but is NOT directly monitored by OneAgent.
+    - [x] Any service which is called by your application or another service, but is NOT directly monitored by OneAgent.
 ### **Question 68)**
 - What is a Monitoring Candidate within Dynatrace?
     - [ ] Hosts which are indicated as being monitored remotely by OneAgent and communicate with other hosts in your environment.
@@ -466,7 +466,7 @@
 <br>
 <br>
 
-# External Questions
+# External Questions 1
 ### **Question 1)**
 - How long does Dynatrace store metric data answer?
     - [x] 5 years
@@ -484,7 +484,7 @@
 - If you want to monitor PHP application only in one host then how to do it?
 ### **Question 6)**
 - What are Opaque services?
-    - [x] Opaque services are services that are detected on the calling side by Dynatrace for which code-level visibility isn't available.
+    - [x] A service detected on the calling side by Dynatrace for which code-level visibility isn't available.
 ### **Question 7)**
 - Which of the following are not a function of ActiveGate?
     - [x] Detect dependencies and services in application 
@@ -543,3 +543,33 @@
     - [x] ...
 ### **Question 26)**
 - Why database is considered as an external device?
+
+<br>
+<br>
+<br>
+
+# External Questions 2
+### **Question 1)**
+- To capture information from user sessions, what options are supported?
+    - [x] Meta tags, cookies, JavaScript variables, CSS selector & Server side request attribute
+### **Question 2)**
+- In large environments, why is it important to correctly group, organize and configure the technologies detected by the process group on your hosts?
+    - [x] For more accurate monitoring results calculated by artificial intelligence eliminating false positives and noise.
+### **Question 2)**
+- What components have built in Built-in static thresholds for problem detection?
+    - [x] Infrastructure
+### **Question 2)**
+- For automated base-lining of response times what values are held in the baseline?
+    - [x] Median & 90th percentile
+### **Question 2)**
+- Whats is dashed line in smartscape?
+    - [x] No communication for 2 hours or past
+### **Question 2)**
+- Whats is dashed line in smartscape?
+    - [x] No communication for 2 hours or past
+### **Question 2)**
+- Whats is dashed line in smartscape?
+    - [x] No communication for 2 hours or past
+
+
+    
