@@ -555,19 +555,13 @@
 ### **Question 2)**
 - In large environments, why is it important to correctly group, organize and configure the technologies detected by the process group on your hosts?
     - [x] For more accurate monitoring results calculated by artificial intelligence eliminating false positives and noise.
-### **Question 2)**
+### **Question 3)**
 - What components have built in Built-in static thresholds for problem detection?
     - [x] Infrastructure
-### **Question 2)**
+### **Question 4)**
 - For automated base-lining of response times what values are held in the baseline?
     - [x] Median & 90th percentile
-### **Question 2)**
-- Whats is dashed line in smartscape?
-    - [x] No communication for 2 hours or past
-### **Question 2)**
-- Whats is dashed line in smartscape?
-    - [x] No communication for 2 hours or past
-### **Question 2)**
+### **Question 5)**
 - Whats is dashed line in smartscape?
     - [x] No communication for 2 hours or past
 
