@@ -1,4 +1,5 @@
 # Dump 01 <img src=https://i.imgur.com/sgGY6XJ.png align=right width=20%>
+(**Passing percent**: `74.2%`)
 ### **Question 1)**
 - Which of the following is the correct structure of Dynatrace Real User Monitoring? Select all that apply.
     - [x] An Application consists of User sessions which are made up of user actions.
@@ -7,10 +8,10 @@
     - [x] Applications consist of User Actions, while both are contained within a User Session.
 ### **Question 2)**
 - To define specific settings for a performance metric for a user action, what do you need to do?
-    - [x] Edit the Application settings, select the actions to customize, and set the performance metric values you want to apply to the selected actions.
+    - [ ] Edit the Application settings, select the actions to customize, and set the performance metric values you want to apply to the selected actions.
     - [ ] This can only be set for Applications, not for individual user actions.
     - [ ] Mark the action as a key request and edit the performance metric settings.
-    - [ ] Mark the action as a key user action and edit the key performance metric settings.
+    - [x] Mark the action as a key user action and edit the key performance metric settings.
 ### **Question 3)**
 - What is the data retention period for DEM for Dynatrace Managed RUM, including Session Replay data?
     - [ ] Fixed at 35 days
@@ -218,3 +219,224 @@
     - [x] Service Naming Rules
     - [ ] Services Merging Rules
     - [ ] Process Group Naming Rules
+### **Question 36)**
+- How can a specific user be identified in Real User Monitoring?
+    - [ ] By setting request attribute rules to catch user actions.
+    - [x] By configuring a user tag.
+    - [ ] User actions are anonymous and can't be tracked.
+    - [ ] By creating custom user actions to track specific behaviors.
+### **Question 37)**
+- What happens when a user session is initiated and the user clears their browser cookies before resuming their interactions with the application?
+    - [ ] The same user session is continued, with the break highlighted.
+    - [x] A second user session is initiated.
+    - [ ] Each user action will be added to separate user sessions.
+    - [ ] The same user session is continued as is.
+### **Question 38)**
+- Within Dynatrace, where do tags and metadata come from?
+    - [ ] Tags and metadata are added manually to entities as needed.
+    - [ ] Both tags and metadata can be added manually and created via rules in Dynatrace.
+    - [x] Metadata is detected during startup or discovery of a monitored entity. Tags are created manually, imported from external sources, or via rules.
+    - [ ] Tags are detected during startup or discovery of a monitored entity. Metadata is created manually or via rules.
+### **Question 39)**
+- After activating a synthetic browser monitor, why should you wait 24 hours before adjusting the performance thresholds?
+    - [ ] You need 24 hours to ensure the monitor is working as expected.
+    - [ ] Performance thresholds are not editable until 24 hours after activation.
+    - [ ] Locations are not fully configured for 24 hours and you need to edit performance thresholds for each.
+    - [x] The performance data is averaged over 24 hours and can then be used as a reference point.
+### **Question 40)**
+- Where do you manage and invite users in Dynatrace Managed?
+    - [ ] Mission Control (MC)
+    - [ ] Cluster ActiveGate
+    - [ ] NAM Console
+    - [x] Cluster Management Console (CMC)
+### **Question 41)**  
+- Which of the following is NOT an event severity?
+    - [ ] Slowdown
+    - [ ] Availability
+    - [x] Unexpected
+    - [ ] Resource
+    - [ ] Error
+### **Question 42)**
+- Which key network metrics and environment details are available on the Network overview page? Select all that apply.
+    - [ ] Hosts, Interfaces, and Processes
+    - [ ] Processes and Transactions
+    - [x] Traffic, Retransmissions, and Connectivity
+    - [ ] Process Groups and Services
+### **Question 43)**
+- What type of event is raised if CPU usage rises above a critical threshold?
+    - [ ] A Network utilization overload event
+    - [ ] A Host unavailable availability event
+    - [x] A CPU saturation resource event
+    - [ ] A High CPU usage slowdown event
+### **Question 44)**
+- When using Dynatrace Managed, which type of update is mandatory?
+    - [ ] Application detection rule updates
+    - [x] Managed cluster updates
+    - [ ] Synthetic control updates
+    - [ ] OneAgent updates
+### **Question 45)**
+- What is the timeframe used when viewing the SmartScape?
+    - [ ] 48 hours
+    - [ ] 24 hours
+    - [ ] 2 hours
+    - [x] 72 hours
+### **Question 46)**
+- When viewing the User sessions page, how are live user sessions differentiated from completed user sessions?
+    - [ ] Only completed user sessions are shown in the chart.
+    - [ ] Only live user sessions are shown in the chart.
+    - [x] They are shown in different colors in the chart.
+    - [ ] They are shown in different charts.
+### **Question 47)**
+- On the Service Quality report, what is used to calculate the Services score?
+    - [x] The total number of service calls in the last reporting period
+    - [ ] The percentage of service calls affected by problems and failed as a result
+    - [ ] The percentage of successful service calls that were unaffected by problems
+    - [ ] The total number of service calls and the percentage of host time that problems were encountered.
+### **Question 48)**
+- How can you assign a host to a host group? Select all that apply.
+    - [x] During OneAgent installation
+    - [ ] Via the Management Zones API
+    - [ ] By editing the field in the Host settings
+    - [x] By using the oneagentutil command-line tool
+### **Question 49)**
+- Where can you view the attributes for a service, such as the web server name and web application ID?
+    - [ ] Via the service View metadata action
+    - [ ] In the Properties and tags section of the Service overview page
+    - [x] In the Transactions & services view
+    - [ ] In the Attributes section of the Service overview page
+### **Question 50)**
+- Which event type has the LOWEST severity level?
+    - [ ] Slowdown events
+    - [ ] Availability events
+    - [ ] Resource events
+    - [ ] Error events
+    - [x] Info events
+### **Question 51)**
+- Dynatrace can monitor applications on all of the following Operating Systems EXCEPT:
+    - [ ] AIX
+    - [ ] Solaris
+    - [x] Windows Phone
+    - [ ] z/OS
+    - [ ] iOS
+### **Question 52)**
+- Which of the following are listed on the Hosts page? Select all that apply.
+    - [x] Monitoring Candidates
+    - [ ] Tagged process groups
+    - [x] Physical machines with OneAgent
+    - [x] Virtual machines with OneAgent
+    - [x] Hosts with problems
+### **Question 53)**
+- When configuring request attributes, what does the Request attribute contains confidential data checkbox do?
+    - [ ] The entire request attribute will be hidden if it contains sensitive information.
+    - [ ] Request attributes with sensitive values or data are flagged, and authorized users can unlock the data with a password. 
+    - [x] Sensitive values or data in the request attribute are masked and therefore hidden from unauthorized access.
+    - [ ] Sensitive values or data in the request attribute are removed.
+### **Question 54)**
+- Dynatrace treats databases as external services, what does this mean when referring to how databases are monitored?
+    - [ ] Response time and failure rate of database queries cannot be tracked.
+    - [ ] Even though database processes are not monitored, OneAgent is required on the database host to capture incoming requests.
+    - [x] Dynatrace monitors calls to databases, rather than the databases processes themselves.
+    - [ ] Database calls cannot be monitored because they are external services.
+### **Question 55)**
+- Which of the following do NOT end a user session? Select all that apply.
+    - [ ] When the limit of 200 user actions per session is reached
+    - [ ] After 30 minutes of browser inactivity
+    - [x] Closing the browser tab
+    - [x] Closing the mobile app
+### **Question 56)**
+- What settings can be used to customize the synthetic device used for a Synthetic Clickpath? Select all that apply.
+    - [ ] O/S version
+    - [x] Network interference
+    - [x] Bandwidth
+    - [ ] Input lag
+    - [ ] Device type
+    - [ ] Screen orientation
+    - [x] Screen size
+### **Question 57)**
+- Can a user action be both a conversion goal and a key user action?
+    - [ ] Only in mobile applications
+    - [ ] Only in Dynatrace managed
+    - [x] Yes
+    - [ ] No
+### **Question 58)**
+- When looking at a section of host data 75 days in the past, what interval of granularity can you see?
+    - [ ] 35 days
+    - [x] 1 hour
+    - [ ] 1 minute
+    - [ ] 5 minutes
+### **Question 59)**
+- You want to separate entities in your monitored environment, such as Hosts, Services, and Web applications, and ensure only authorized users can view the data for their group of entities. How can you do this?
+    - [ ] Create users with Entity rules in the Cluster Management Console
+    - [x] Create Management zones
+    - [ ] Create Entity detection rules
+    - [ ] Create Host groups
+### **Question 60)**
+- Why is it a best practice to use an ActiveGate with ALL Dynatrace installations?
+    - [ ] It is actually a required part of the Dynatrace installation.
+    - [x] The ActiveGate is used to load balance Dynatrace installations with up to 10 agents.
+    - [ ] Network overhead can be considerably reduced when the ActiveGate bundles the agent traffic.
+    - [ ] An ActiveGate provides the authentication gateway for Dynatrace.
+### **Question 61)**
+- In a single-URL browser monitor, how can you ensure that a certain page element is loaded?
+    - [ ] By selecting a key performance metric for the monitor.
+    - [x] By editing your single-URL browser monitor in script mode.
+    - [ ] By creating a content validation rule.
+    - [ ] By ensuring it is part of the clickpath.
+### **Question 62)**
+- A user action waterfall analysis is built around W3C timings. Which of the following does Dynatrace use to group the waterfall analysis entries? Select all that apply.
+    - [ ] Process group
+    - [x] XHR Requests
+    - [ ] Response times
+    - [x] Document requests
+    - [ ] Dependencies
+    - [x] Resources
+### **Question 63)**
+- After Dynatrace creates the default application, what do you use to customize how applications are grouped?
+    - [ ] Service naming rules
+    - [ ] Application grouping rules
+    - [ ] Process group detection rules
+    - [x] Application detection rules
+### **Question 64)**
+- Why does a Dynatrace Managed environment need to be able to communicate with Dynatrace Mission Control?
+    - [ ] Mission Control provides permissions to Management zones.
+    - [x] Mission Control is responsible for processing usage and billing information and Dynatrace cluster health.
+    - [ ] Mission Control provides the Dynatrace Al analysis for your managed data.
+    - [ ] Mission Control bundles the agent traffic and reduces the network overhead.
+### **Question 65)**
+- What is a Process Group?
+    - [x] A group of processes belonging to the same technology that perform the same task across multiple hosts.
+    - [ ] A group of the same services running across multiple hosts.
+    - [ ] A group of processes belonging to the same technology, performing various tasks on multiple hosts.
+    - [ ] A group of processes which perform the same task, regardless of technology type and which may be running across multiple hosts.
+### **Question 66)**
+- Enabling extra support for additional JavaScript frameworks helps add detail to which type of user action?
+    - [ ] Exit Action
+    - [ ] XHR Action
+    - [ ] All user action types
+    - [x] Load Action
+### **Question 67)**
+- How long does Dynatrace keep timeseries metrics?
+    - [x] 5 years
+    - [ ] 35 days
+    - [ ] 30 days
+    - [ ] 10 days
+### **Question 68)**
+- What are the problem detection and alerting options for creating a Maintenance Window? Select all that apply.
+    - [x] Disable notification but alert on resolution
+    - [ ] Disable problem detection during maintenance
+    - [ ] Detect problems and create a log
+    - [x] Detect problems and alert
+    - [ ] Detect problems but don't alert
+### **Question 69)**
+- When considering user action metrics in Dynatrace, which of the following are used as key performance metrics? Select all that apply.
+    - [x] Application cache
+    - [x] Load event start
+    - [x] DOM content loaded
+    - [x] Visually complete
+    - [x] Speed index
+### **Question 70)**
+- When a Synthetic monitor is executed, which browser is used?
+    - [x] Chrome
+    - [ ] Firefox
+    - [ ] Internet Explorer
+    - [ ] Microsoft Edge

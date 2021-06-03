@@ -1,4 +1,5 @@
 # Dump 00 <img src=https://i.imgur.com/sgGY6XJ.png align=right width=20%>
+(**Passing percent**: `93.2%`)
 ### **Question 1)**
 - Why is it a best practice to define extra metadata, and not tags, on a host system?
     - [ ] It isn't a best practice. Tags are easy to define and change on a host on the fly and they can pass dynamic data to Dynatrace.
