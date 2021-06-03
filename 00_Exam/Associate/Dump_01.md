@@ -70,10 +70,10 @@
     - [ ] Disable PHP Global monitoring, then edit the PHP Process group settings to add the Host to the Host group list.
 ### **Question 12)**
 - How can you show the locations of users with private IP addresses on the world map?
-    - [ ] By mapping IP addresses to locations in the Web & Mobile monitoring settings.
+    - [x] By mapping IP addresses to locations in the Web & Mobile monitoring settings.
     - [ ] By configuring the Geolocation Breakdown table
     - [ ] You can manually place the user locations on the world map.
-    - [x] By reordering the detection rules on the IP detection page.
+    - [ ] By reordering the detection rules on the IP detection page.
 ### **Question 13)**
 - Which dimensions are used for Application baselining? Select all that apply.
     - [x] Operating system
