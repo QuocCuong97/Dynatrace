@@ -429,7 +429,7 @@
     - [ ] Detect problems but don't alert
 ### **Question 69)**
 - When considering user action metrics in Dynatrace, which of the following are used as key performance metrics? Select all that apply.
-    - [x] Application cache
+    - [ ] Application cache
     - [x] Load event start
     - [x] DOM content loaded
     - [x] Visually complete
