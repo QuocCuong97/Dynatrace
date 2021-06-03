@@ -111,8 +111,8 @@
     - [x] The activities consuming the most time for each service
 ### **Question 18)**
 - What is the default reference period of performance baselines for database services?
-    - [x] 2 hours
-    - [ ] 7 days
+    - [ ] 2 hours
+    - [x] 7 days
     - [ ] 35 days
     - [ ] 72 hours
 ### **Question 19)**
@@ -124,7 +124,7 @@
 ### **Question 20)**
 - Which of the following statements about user session properties is true? Select all that apply.
     - [x] User session properties can be used in USQL queries.
-    - [x] You can use a single user session property across multiple applications.
+    - [ ] You can use a single user session property across multiple applications.
     - [ ] User session properties are retrospective.
     - [x] User session properties are available for web and mobile applications.
 ### **Question 21)**
@@ -148,15 +148,15 @@
 ### **Question 24)**
 - How long does an application need to run before traffic spike and drop alerts are raised?
     - [ ] For at least 20% in the last day
-    - [x] For at least 50% in the last 2 days
+    - [ ] For at least 50% in the last 2 days
     - [ ] For at least 20% in the past week
-    - [ ] For a full week
+    - [x] For a full week
 ### **Question 25)**
 - How can Real User Monitoring be configured if you have no access to the host? Select all that apply.
     - [ ] Monitoring would not be possible
     - [x] Agentless monitoring
     - [ ] OneAgent plugin
-    - [ ] Browser Extension
+    - [x] Browser Extension
 ### **Question 26)**
 - By default, how often does Dynatrace auto-discover, analyze, and store log files?
     - [x] Every 60 seconds
@@ -185,16 +185,16 @@
     - [x] App usage - User experience, Network performance, Crashes, Called services
 ### **Question 30)**
 - What can you do to check the availability of internal applications or resources that are inaccessible from outside your network? Select all that apply.
-    - [ ] Create a Browser Monitor on a Cluster ActiveGate with a private synthetic location.
+    - [x] Create a Browser Monitor on a Cluster ActiveGate with a private synthetic location.
     - [x] Create an HTTP Monitor on an Environment ActiveGate with a private synthetic location.
     - [ ] Create a Browser Monitor to simulate an internal user session which is executed by Synthetic Control.
-    - [x] Create a Browser clickpath on a Dynatrace managed node that can communicate with Mission Control.
+    - [ ] Create a Browser clickpath on a Dynatrace managed node that can communicate with Mission Control.
 ### **Question 31)**
 - How does Dynatrace detect external services like unmonitored hosts?
     - [ ] External services are not detected.
-    - [ ] They are detected when they send or receive requests from your monitored services and applications.
+    - [x] They are detected when they send or receive requests from your monitored services and applications.
     - [ ] Dynatrace sees the performance data from the external services.
-    - [x] They are detected when your monitored services or applications make unknown requests.
+    - [ ] They are detected when your monitored services or applications make unknown requests.
 ### **Question 32)**
 - When would you need to use the RUM browser extension?
     - [x] When you want Real User Monitoring but don't have access to the underlying application servers or the HTML page source.
@@ -203,10 +203,10 @@
     - [ ] It is required to record a browser clickpath.
 ### **Question 33)**
 - When Dynatrace detects an application running on a host, what is used to capture and group the application monitoring data?
-    - [x] You must first define an application for the data to be captured and grouped.
+    - [ ] You must first define an application for the data to be captured and grouped.
     - [ ] A new dashboard focused on your application.
     - [ ] The application name is detected and used to define an application.
-    - [ ] A default application used as a "catch all."
+    - [x] A default application used as a "catch all."
 ### **Question 34)**
 - How does Dynatrace perform evaluations for slowly degrading response-time degradations?   
     - [ ] Evaluations are based on the slowest 10% of all requests during the degradation.
@@ -258,7 +258,7 @@
     - [ ] Error
 ### **Question 42)**
 - Which key network metrics and environment details are available on the Network overview page? Select all that apply.
-    - [ ] Hosts, Interfaces, and Processes
+    - [x] Hosts, Interfaces, and Processes
     - [ ] Processes and Transactions
     - [x] Traffic, Retransmissions, and Connectivity
     - [ ] Process Groups and Services
@@ -288,9 +288,9 @@
     - [ ] They are shown in different charts.
 ### **Question 47)**
 - On the Service Quality report, what is used to calculate the Services score?
-    - [x] The total number of service calls in the last reporting period
+    - [ ] The total number of service calls in the last reporting period
     - [ ] The percentage of service calls affected by problems and failed as a result
-    - [ ] The percentage of successful service calls that were unaffected by problems
+    - [x] The percentage of successful service calls that were unaffected by problems
     - [ ] The total number of service calls and the percentage of host time that problems were encountered.
 ### **Question 48)**
 - How can you assign a host to a host group? Select all that apply.
@@ -346,10 +346,10 @@
 ### **Question 56)**
 - What settings can be used to customize the synthetic device used for a Synthetic Clickpath? Select all that apply.
     - [ ] O/S version
-    - [x] Network interference
+    - [ ] Network interference
     - [x] Bandwidth
     - [ ] Input lag
-    - [ ] Device type
+    - [x] Device type
     - [ ] Screen orientation
     - [x] Screen size
 ### **Question 57)**
