@@ -107,7 +107,7 @@
 - What do Response time hotspots on the Services page indicate? Select all that apply.
     - [ ] The services making the most database requests
     - [ ] The services making the most requests
-    - [ ] The activities utilizing the most resources for each service
+    - [x] The activities utilizing the most resources for each service
     - [x] The activities consuming the most time for each service
 ### **Question 18)**
 - What is the default reference period of performance baselines for database services?
