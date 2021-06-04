@@ -697,7 +697,7 @@
 ### **Question 20)**
 - Which of the following statements about user session properties is true? Select all that apply.
     - [x] User session properties can be used in USQL queries.
-    - [ ] You can use a single user session property across multiple applications.
+    - [x] You can use a single user session property across multiple applications.
     - [ ] User session properties are retrospective.
     - [x] User session properties are available for web and mobile applications.
 ### **Question 21)**
@@ -874,8 +874,8 @@
 ### **Question 49)**
 - Where can you view the attributes for a service, such as the web server name and web application ID?
     - [ ] Via the service View metadata action
-    - [ ] In the Properties and tags section of the Service overview page
-    - [x] In the Transactions & services view
+    - [x] In the Properties and tags section of the Service overview page
+    - [ ] In the Transactions & services view
     - [ ] In the Attributes section of the Service overview page
 ### **Question 50)**
 - Which event type has the LOWEST severity level?
