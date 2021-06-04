@@ -995,11 +995,11 @@
     - [ ] 10 days
 ### **Question 68)**
 - What are the problem detection and alerting options for creating a Maintenance Window? Select all that apply.
-    - [x] Disable notification but alert on resolution
-    - [ ] Disable problem detection during maintenance
+    - [ ] Disable notification but alert on resolution
+    - [x] Disable problem detection during maintenance
     - [ ] Detect problems and create a log
     - [x] Detect problems and alert
-    - [ ] Detect problems but don't alert
+    - [x] Detect problems but don't alert
 ### **Question 69)**
 - When considering user action metrics in Dynatrace, which of the following are used as key performance metrics? Select all that apply.
     - [ ] Application cache
