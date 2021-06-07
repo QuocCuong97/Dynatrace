@@ -572,7 +572,7 @@
 <br>
 
 # Dump 01 <img src=https://i.imgur.com/sgGY6XJ.png align=right width=20%>
-(**Passing percent**: `74.2%`)
+(**Passing percent**: `95%`)
 ### **Question 1)**
 - Which of the following is the correct structure of Dynatrace Real User Monitoring? Select all that apply.
     - [x] An Application consists of User sessions which are made up of user actions.
