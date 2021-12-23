@@ -49,9 +49,9 @@
 - In Dynatrace Managed, which user repository options are available for managing users and groups? Select all that apply.
     - [ ] Integration with an SSO ldP
     - [ ] An NT LAN Manager
-    - [ ] 3rd party OpenlD service
-    - [ ] SAML
-    - [ ] External LDAP server
+    - [x] 3rd party OpenlD service
+    - [x] SAML
+    - [x] External LDAP server
 ### **Question 9)**
 - How long is data stored for timeseries metrics for key requests?
     - [ ] 90 days
@@ -113,14 +113,14 @@
     - [ ] Hourly
 ### **Question 18)**
 - What benefits do you gain from marking an action as a Key user action? Select all that apply.
-    - [ ] They can be pinned to the dashboard for quick access
+    - [x] They can be pinned to the dashboard for quick access
     - [ ] Anomaly detection will automatically detect performance degradations
     - [ ] Extends historical data retention time
-    - [ ] Definition of specific Apdex thresholds for high-priority actions
+    - [x] Definition of specific Apdex thresholds for high-priority actions
 ### **Question 19)**
 - Where is user session data stored for Dynatrace Managed?
     - [ ] Couchbase
-    - [ ] Elasticsearch
+    - [x] Elasticsearch
     - [ ] DynamoDB
     - [ ] Cassandra
 ### **Question 20)**
@@ -138,7 +138,7 @@
     - [ ] Number of service requests
 ### **Question 22)**
 - Why would you want to manually tag any important low-volume requests as Key requests?
-    - [ ] To ensure standard alerts will be raised for all of your important requests, even if they are low volume
+    - [x] To ensure standard alerts will be raised for all of your important requests, even if they are low volume
     - [ ] So you can pin them to your Dashboard for easy access
     - [ ] To ensure Apdex calculations include all requests, even if they are low volume
     - [ ] Low volume requests are not otherwise monitored
@@ -152,7 +152,7 @@
 - How do you assign permissions to users in Dynatrace SaaS?
     - [ ] Users inherit the permissions assigned to the groups they belong to, but the Account Manager permission is assigned directly to each user.
     - [ ] You can assign permissions directly to users.
-    - [ ] Environment permissions are inherited from groups users belong to, and Account permissions are assigned directly to users.
+    - [x] Environment permissions are inherited from groups users belong to, and Account permissions are assigned directly to users.
     - [ ] Users inherit the permissions assigned to the groups they belong to.
 ### **Question 25)**
 - When configuring problem notification emails, how do you filter the problem feed to ensure you only receive the notification for a set group of problems?
