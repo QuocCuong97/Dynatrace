@@ -8,28 +8,28 @@
 ### **Question 2)**
 - Which of the following are problem impact levels? Select all that apply.
     - [ ] ENTITY
-    - [ ] APPLICATION
+    - [x] APPLICATION
     - [ ] LIFECYCLE
-    - [ ] ENVIRONMENT
-    - [ ] INFRASTRUCTURE
-    - [ ] SERVICE
+    - [x] ENVIRONMENT
+    - [x] INFRASTRUCTURE
+    - [x] SERVICE
 ### **Question 3)**
 - What are the different types of Conversion Goals?
-    - [ ] Number of User Actions
-    - [ ] Destination
-    - [ ] User Action
+    - [x] Number of User Actions
+    - [x] Destination
+    - [x] User Action
     - [ ] User Action Time
     - [ ] Page Response Time
-    - [ ] Session Duration
+    - [x] Session Duration
 ### **Question 4)**
 - How can you transfer a Synthetic monitor from one Dynatrace environment to another?
-    - [ ] Use the Synthetic monitor API in both environments to get the details of a synthetic monitor, then create a new monitor in the other environment.
+    - [x] Use the Synthetic monitor API in both environments to get the details of a synthetic monitor, then create a new monitor in the other environment.
     - [ ] With the Dynatrace Synthetic conversion tool command line interface, connect to one environment and execute the command to copy monitors from one environment to the other.
     - [ ] You must manually recreate the synthetic monitor in the other environment.
     - [ ] Manually export the script (JSON) from the monitor and then import the script into a new monitor in the other environment.
 ### **Question 5)**
 - How is the Dynatrace API authenticated?
-    - [ ] A valid token with the proper permissions passed in the Authorization HTTP header or the api-token query parameter.
+    - [x] A valid token with the proper permissions passed in the Authorization HTTP header or the api-token query parameter.
     - [ ] A valid license with the correct API modules enabled needs to be in place in your environment. This provides the authentication for any API calls.
     - [ ] A user name and password with the proper permissions is needed to establish a session for the API calls.
     - [ ] Once an API endpoint is unlocked with a token in the API explorer, that endpoint remains open for any API calls, even from external systems, and no further authentication is needed.
@@ -41,10 +41,10 @@
     - [ ] Add a log path to the OneAgent Log Monitoring configuration file.
 ### **Question 7)**
 - What do you need in order to create a custom coded OneAgent extension?Select all that apply.
-    - [ ] The Extension SDK
+    - [x] The Extension SDK
     - [ ] ActiveGate SDK
     - [ ] Dynatrace OneAgent
-    - [ ] Python
+    - [x] Python
 ### **Question 8)**
 - In Dynatrace Managed, which user repository options are available for managing users and groups? Select all that apply.
     - [ ] Integration with an SSO ldP
@@ -57,7 +57,7 @@
     - [ ] 90 days
     - [ ] 10 days
     - [ ] 5 years
-    - [ ] 35 days
+    - [x] 35 days
 ### **Question 10)**
 - During the page load process, what does the request measure refer to?
     - [ ] Time spent waiting for the first byte of the document response.
@@ -66,9 +66,9 @@
     - [ ] Time spent establishing a socket connection from the browser to the web server
 ### **Question 11)**
 - Which of the following commands can be used to start the OneAgent service on a Linux distribution with SystemV or systemd? (Where oneagent is the init.d script for OneAgent.) Select all that apply.
-    - [ ] systemctl start oneagent
+    - [x] systemctl start oneagent
     - [ ] systemctl oneagent
-    - [ ] service oneagent start
+    - [x] service oneagent start
     - [ ] oneagent service start
 ### **Question 12)**
 - What happens when you set the cost and traffic control feature for a mobile app to 30%? Select all that apply
