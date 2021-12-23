@@ -85,29 +85,31 @@
     - [ ]Problems are identical to events and alerts
 ### **Question 14)**
 - The network connectivity metric measure is:
-    - [ ] The percentage of properly established TCP connections compared to TCP connections that were refused or timed out
-    - [ ] The bit-rate of available or consumed information capacity expressed in metric multiples of bits per second
+    - [x] The percentage of properly established TCP connections compared to TCP connections that were refused or timed out
+    - [x] The bit-rate of available or consumed information capacity expressed in metric multiples of bits per second
     - [ ] The amount of time it takes for data to travel from one location to another across a network
     - [ ] Calculated by routing algorithms when determining the optimal route for sending network traffic
 ### **Question 15)**
-- How is the Dynatrace API authenticated?
-    - [ ] A valid token with the proper permissions passed in the Authorization HTTP header or the api-token query parameter.
-    - [ ] A valid license with the correct API modules enabled needs to be in place in your environment. This provides the authentication for any API calls.
-    - [ ] A user name and password with the proper permissions is needed to establish a session for the API calls.
-    - [ ] Once an API endpoint is unlocked with a token in the API explorer, that endpoint remains open for any API calls, even from external systems, and no further authentication is needed.
+- For the three dimensions of an identified problem, which statements are true? Select all that apply.
+    - [ ] The Visual Resolution Path shows all monitored entities related to a problem.
+    - [ ] Impact shows only the services that have been affected by the problem.
+    - [ ] The Visual Resolution Path shows the dependencies between your application and the underlying services and infrastructure components that support it.
+    - [ ] The Root Cause may identify more than one component.
+    - [ ] The Root Cause always identifies a single infrastructure component
+    - [ ] Impact shows applications or components that have been affected by the problem.
 ### **Question 16)**
 - What options are available for configuring anomaly detection for a service? Select all that apply.
-    - [ ] Response time degradations
+    - [x] Response time degradations
     - [ ] CPU saturation
     - [ ] Action duration degradation
-    - [ ] Service load drops or spikes
+    - [x] Service load drops or spikes
     - [ ] Java out of memory problem
-    - [ ] Increases in failure rate
+    - [x] Increases in failure rate
 ### **Question 17)**
 - Which time frames are used to learn frequent issues within your environments? Select all that apply.
     - [ ] Yearly
     - [ ] Daily
-    - [ ] Weekly
+    - [x] Weekly
     - [ ] Hourly
 ### **Question 18)**
 - What benefits do you gain from marking an action as a Key user action? Select all that apply.
@@ -126,13 +128,13 @@
     - [ ] Regions, Areas, Sites
     - [ ] Application, Service, Process, Infrastructure
     - [ ] Low, Medium, High, Severe, Critical
-    - [ ] Availability, Error, Slowdown, Resource
+    - [x] Availability, Error, Slowdown, Resource
 ### **Question 21)**
 - Which problem filters can be applied by configuring an alerting profile? Select all that apply.
     - [ ] Tags
     - [ ] Problem duration
-    - [ ] Event severities
-    - [ ] Problem severity
+    - [x] Event severities
+    - [x] Problem severity
     - [ ] Number of service requests
 ### **Question 22)**
 - Why would you want to manually tag any important low-volume requests as Key requests?
@@ -154,7 +156,7 @@
     - [ ] Users inherit the permissions assigned to the groups they belong to.
 ### **Question 25)**
 - When configuring problem notification emails, how do you filter the problem feed to ensure you only receive the notification for a set group of problems?
-    - [ ] By selecting an alerting profile
+    - [x] By selecting an alerting profile
     - [ ] By setting up the problem filter on the notification
     - [ ] By selecting placeholders that match values found in the problems you want
     - [ ] By selecting a management zone
@@ -163,18 +165,18 @@
     - [ ] Edit the Process settings for each process on the host, and set the Disable Anomaly Detection switch to On.
     - [ ] Modify the ruxitagent.confon the host and disable CPU_ProbIem_Detection.
     - [ ] From the Process details, edit the Problem Detection settings and set the CPU Problem Detection switch to Off.
-    - [ ] From the Host details, edit Anomaly Detection and set up custom settings for CPU saturation.
+    - [x] From the Host details, edit Anomaly Detection and set up custom settings for CPU saturation.
 ### **Question 27)**
 - Which of the following statements about Automatic baselines is true?
     - [ ] They are available immediately after the application or service has been detected.
     - [ ] They are available 7 days after the application or service has been detected.
     - [ ] They are available 1 hour after an application, service, or infrastructure component has been detected.
-    - [ ] They are available 2 hours after the application or service has been detected.
+    - [x] They are available 2 hours after the application or service has been detected.
 ### **Question 28)**
 - Monitoring candidates can be described as:
     - [ ] Hosts which communicate over TCP/IP and belong to the same network as instrumented hosts
     - [ ] Hosts with OneAgent running in cloud infrastructure mode
-    - [ ] Non-instrumented hosts that communicate with instrumented hosts
+    - [x] Non-instrumented hosts that communicate with instrumented hosts
     - [ ] Hosts without OneAgent installed that are qualified for monitoring due to high resource consumption
 ### **Question 29)**
 - You've configured your application's key performance metric for satisfactory performance to be from 0 to 5 seconds. However, there is a new client sign-up action which should take only 3 seconds. What can you do to monitor that the sign-up action is not frustrating users by taking longer than 3 seconds, while still allowing other actions to take up to 5 seconds?
@@ -184,10 +186,10 @@
     - [ ] Mark the action as a key user action and set the key performance metric settings for the action to 3 seconds.
 ### **Question 30)**
 - Which of the following are the components provided in the Dynatrace Managed installer? Select all that apply
-    - [ ] Embedded ActiveGate
+    - [x] Embedded ActiveGate
     - [ ] Kinesis Module
     - [ ] Application Load Balancer
-    - [ ] Elasticsearch
-    - [ ] NGINX
-    - [ ] Cassandra
+    - [x] Elasticsearch
+    - [x] NGINX
+    - [x] Cassandra
     - [ ] Cluster ActiveGate
